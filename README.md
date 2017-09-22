@@ -44,7 +44,7 @@ py -3.6 rating.py 2010 2014     |    (Prints sorted rating from 2010 to 2014)
 ## Contact Me
 If you're having issues, please contact me on email: fredrik.bakken(at)gmail.com
 
-Website: https://fredrikbakken.no/
+Website: https://www.fredrikbakken.no/
 
 ### DISCLAIMER
 
