@@ -1,0 +1,6 @@
+# requirements.txt
+
+tinydb==3.5.0
+beautifulsoup4==4.6.0
+
+# Currency converter: https://www.oanda.com/currency/converter/
