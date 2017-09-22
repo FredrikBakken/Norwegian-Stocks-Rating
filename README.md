@@ -4,6 +4,8 @@
 
 Norwegian Stocks Rating is a program for collecting all stocks on the norwegian stock market and then rating the stocks based upon historical values and dividends.
 
+Latest 'data' content updated: 22.09.2017.
+
 ## Installation
 
 Install [Python 3.6.2](https://www.python.org/downloads/release/python-362/) and confirm the successful installation by running (in cmd):
@@ -38,6 +40,17 @@ py -3.6 rating.py 2010 2014     |    (Prints sorted rating from 2010 to 2014)
 ## Missing Features
 
  - Automate the collection of dividend data (to be done)
+ 
+## Contact Me
+If you're having troubles, please contact me at: fredrik.bakken(at)gmail.com
+
+Website: https://fredrikbakken.no/
+
+### DISCLAIMER
+
+DO NOT USE THIS SOFTWARE AS A RELIABLE SOURCE OF INFORMATION WHEN IT COMES TO INVESTING IN NORWEGIAN STOCKS. IT HAS NOT BEEN FULLY TESTED AND THERE ARE KNOWN ISSUES THAT HAS TO BE SOLVED. THE DEVELOPER WILL NOT TAKE ANY RESPONSIBILITY FOR ANY LOSSES THE INVESTOR MAY EXPERIENCE.
+
+THIS SOFTWARE IS ONLY TO BE USED AS A TOOL FOR GETTING MORE INFORMATION ABOUT THE STOCKS ON THE NORWEGIAN MARKET. MAKE SURE TO DO YOUR OWN RESEARCH BEFORE TRUSTING ANY OF THE INFORMATION PROVIDED BY THIS SOFTWARE.
 
 License
 ----
@@ -46,9 +59,3 @@ MIT
 
 
 **Free Software, Hell Yeah!**
-
-### DISCLAIMER
-
-DO NOT USE THIS SOFTWARE AS A RELIABLE SOURCE OF INFORMATION WHEN IT COMES TO INVESTING IN NORWEGIAN STOCKS. IT HAS NOT BEEN FULLY TESTED AND THERE ARE KNOWN ISSUES THAT HAS TO BE SOLVED. THE DEVELOPER WILL NOT TAKE ANY RESPONSIBILITY FOR ANY LOSSES THE INVESTOR MAY EXPERIENCE.
-
-THIS SOFTWARE IS ONLY TO BE USED AS A TOOL FOR GETTING MORE INFORMATION ABOUT THE STOCKS ON THE NORWEGIAN MARKET. MAKE SURE TO DO YOUR OWN RESEARCH BEFORE TRUSTING ANY OF THE INFORMATION PROVIDED BY THIS SOFTWARE.
