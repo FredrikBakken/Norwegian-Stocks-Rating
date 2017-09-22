@@ -42,7 +42,7 @@ py -3.6 rating.py 2010 2014     |    (Prints sorted rating from 2010 to 2014)
  - Automate the collection of dividend data (to be done)
  
 ## Contact Me
-If you're having troubles, please contact me at: fredrik.bakken(at)gmail.com
+If you're having issues, please contact me on email: fredrik.bakken(at)gmail.com
 
 Website: https://fredrikbakken.no/
 
