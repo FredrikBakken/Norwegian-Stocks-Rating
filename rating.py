@@ -23,6 +23,8 @@
 import sys
 import datetime
 
+from prettytable import PrettyTable
+
 from db import db_get_dividends, db_number_of_stocks, db_id_stocks
 
 
@@ -211,16 +213,26 @@ def rating(arg):
 
     sorted_list = sorted(profit_list, key=lambda x: x[1])
 
+    t = PrettyTable(['Loss / Profit', 'Ticker', 'Total (%)', 'Latest stock value', 'Total dividend'])
+
     for x in range(len(sorted_list)):
         if sorted_list[x][1] > 1:
             loss_profit = 'PROFIT'
-        else:
+        elif sorted_list[x][1] < 1:
             loss_profit = 'LOSS'
+        else:
+            loss_profit = 'NO CHANGE'
+
+        if sorted_list[x][3] == 0:
+            dividend = '-'
+        else:
+            dividend = '{0:.2f}'.format(sorted_list[x][3]) + ' kr'
 
         if not (sorted_list[x][1] == 0 and sorted_list[x][2] == 0 and sorted_list[x][3] == 0):
-            print(loss_profit + ': ' + sorted_list[x][0] + " {:.3%}".format(sorted_list[x][1]) +
-                  ' | Latest stock value: {0:.2f}'.format(sorted_list[x][2]) +
-                  ' | Total dividend: {0:.2f}'.format(sorted_list[x][3]) + ' NOK')
+            t.add_row([loss_profit, sorted_list[x][0], '{:.3%}'.format(sorted_list[x][1]),
+                       '{0:.2f}'.format(sorted_list[x][2]), dividend])
+
+    print(t)
 
 if __name__ == "__main__":
     rating(sys.argv)
