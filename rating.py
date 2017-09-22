@@ -106,7 +106,7 @@ def rating(arg):
 
     # If rate select is specific year
     elif number_of_arguments == 1 and bool_year:
-        print("Rate stocks for year " + arg[1])
+        print("Rate stocks for year " + arg[1] + '...')
 
         # Get the number of stocks in the database
         number_of_stocks = db_number_of_stocks()
@@ -152,7 +152,7 @@ def rating(arg):
 
     # If rate selected is from/to specific years
     elif number_of_arguments == 2:
-        print("Rating stocks from " + arg[1] + " to " + arg[2])
+        print("Rating stocks from " + arg[1] + " to " + arg[2] + '...')
 
         # Add relevanted years to a list
         year_from = int(arg[1])
@@ -233,6 +233,11 @@ def rating(arg):
                        '{0:.2f}'.format(sorted_list[x][2]), dividend])
 
     print(t)
+    print('\nSoftware has been developed by Fredrik Bakken.\n'
+          '\nEmail:   fredrik.bakken(at)gmail.com'
+          '\nWebsite: https://www.fredrikbakken.no/'
+          '\nGithub:  https://www.github.com/FredrikBakken\n'
+          "\nThank you for trying out this free software I've made.")
 
 if __name__ == "__main__":
     rating(sys.argv)
