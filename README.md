@@ -32,7 +32,7 @@ main.py runs all parts of the program. For the moment, the software needs to be 
 
 ### Examples of Running rating.py
 ```
-py -3.6 rating.py all           |    (Rates based on all historical data and dividends)
+py -3.6 rating.py all           |    (Prints sorted rating based on all historical data and dividends)
 py -3.6 rating.py 2015          |    (Prints sorted rating from 2015)
 py -3.6 rating.py 2010 2014     |    (Prints sorted rating from 2010 to 2014)
 ```
