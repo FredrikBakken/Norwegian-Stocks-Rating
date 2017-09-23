@@ -28,7 +28,7 @@ All commands described below can be ran from cmd.
 py -3.6 main.py
 ```
 
-main.py runs all parts of the program. For the moment, the software needs to be manually updated by the user when it comes to dividend information. Running the main.py file may therefore result in the software stopping and an 'error' message showing. The developer will try to keep the files in the 'data' folder updated, so that you as a user won't have to do this manual task.
+main.py runs all parts of the program and is therefore **not recommended** to run as it may cause issues for data providers (Netfonds/Newsweb). For the moment, the software needs to be manually updated by the user when it comes to dividend information. Running the main.py file may therefore result in the software stopping and an 'error' message showing, if there are new dividends which has not been handled. The developer will try to keep the files in the 'data' folder updated, so that you as a user won't have to do this manual task.
 
 ### Examples of Running rating.py
 ```
@@ -39,7 +39,9 @@ py -3.6 rating.py 2010 2014     |    (Prints sorted rating from 2010 to 2014)
 
 ## Missing Features
 
- - Automate the collection of dividend data (to be done)
+ - Handle the stock value data in a more efficient way with tinyDB
+ - Optimize the software for efficiency
+ - Automate the collection of dividend data
  
 ## Contact Me
 If you're having issues, please contact me on email: fredrik.bakken(at)gmail.com
