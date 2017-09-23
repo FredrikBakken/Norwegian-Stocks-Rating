@@ -126,7 +126,7 @@ def rating(arg):
             dividend_date_list = sort_on_date(dividend_data)
 
             for x in range(len(dividend_date_list)):
-                if dividend_date_list[x].startswith(arg[1]):
+                if dividend_data[x]['date'].startswith(arg[1]):
                     total_dividend = total_dividend + float(dividend_data[x]['dividend'])
 
             # Find start and end stock value
@@ -237,7 +237,7 @@ def rating(arg):
           '\nEmail:   fredrik.bakken(at)gmail.com'
           '\nWebsite: https://www.fredrikbakken.no/'
           '\nGithub:  https://www.github.com/FredrikBakken\n'
-          "\nThank you for trying out this free software I've made.")
+          "\nThank you for trying out this free stock rating software.")
 
 if __name__ == "__main__":
     rating(sys.argv)
