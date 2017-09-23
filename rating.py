@@ -30,7 +30,7 @@ from db import db_get_dividends, db_number_of_stocks, db_id_stocks
 
 def calculate_profit(ticker, dividend, start, end):
     profit = (end + dividend) / (start)
-    return [ticker, profit, end, dividend]
+    return [ticker, profit, start, end, dividend]
 
 
 def sort_on_date(data):
@@ -213,7 +213,7 @@ def rating(arg):
 
     sorted_list = sorted(profit_list, key=lambda x: x[1])
 
-    t = PrettyTable(['Loss / Profit', 'Ticker', 'Total (%)', 'Latest stock value', 'Total dividend'])
+    t = PrettyTable(['Loss / Profit', 'Ticker', 'Total (%)', 'From stock value', 'To stock value', 'Total dividend'])
 
     for x in range(len(sorted_list)):
         if sorted_list[x][1] > 1:
@@ -223,14 +223,14 @@ def rating(arg):
         else:
             loss_profit = 'NO CHANGE'
 
-        if sorted_list[x][3] == 0:
+        if sorted_list[x][4] == 0:
             dividend = '-'
         else:
-            dividend = '{0:.2f}'.format(sorted_list[x][3]) + ' kr'
+            dividend = '{0:.2f}'.format(sorted_list[x][4]) + ' kr'
 
         if not (sorted_list[x][1] == 0 and sorted_list[x][2] == 0 and sorted_list[x][3] == 0):
             t.add_row([loss_profit, sorted_list[x][0], '{:.3%}'.format(sorted_list[x][1]),
-                       '{0:.2f}'.format(sorted_list[x][2]), dividend])
+                       '{0:.2f}'.format(sorted_list[x][2]), '{0:.2f}'.format(sorted_list[x][3]), dividend])
 
     print(t)
     print('\nSoftware has been developed by Fredrik Bakken.\n'
