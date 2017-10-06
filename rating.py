@@ -233,6 +233,9 @@ def rating(arg):
                        '{0:.2f}'.format(sorted_list[x][2]), '{0:.2f}'.format(sorted_list[x][3]), dividend])
 
     print(t)
+
+    print('\nWARNING! DO NOT TRUST THE CURRENT RESULTS!!!\n')
+
     print('\nSoftware has been developed by Fredrik Bakken.\n'
           '\nEmail:   fredrik.bakken(at)gmail.com'
           '\nWebsite: https://www.fredrikbakken.no/'
