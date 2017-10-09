@@ -63,19 +63,19 @@ def download_stocks():
 
             # Write data from Oslo Bors
             for row in list_bors:
-                print(row)
+                #print(row.encode())
                 row.append('Oslo Børs')
                 writer.writerow(row)
 
             # Write data from Oslo Axess
             for row in list_axess:
-                print(row)
+                #print(row)
                 row.append('Oslo Axess')
                 writer.writerow(row)
 
             # Write data from Merkur
             for row in list_merkur:
-                print(row)
+                #print(row)
                 row.append('Merkur')
                 writer.writerow(row)
 
