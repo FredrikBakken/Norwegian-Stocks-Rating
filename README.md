@@ -12,15 +12,15 @@ Norwegian Stocks Rating is a program for collecting all stocks on the norwegian 
 
 ## Installation
 
-Install [Python 3.6.2](https://www.python.org/downloads/release/python-362/) and confirm the successful installation by running (in cmd):
+Install [Python 3.5.4](https://www.python.org/downloads/release/python-354/) and confirm the successful installation by running (in cmd):
 ```
-py -3.6 --version
->>> Python 3.6.2
+py -3.5 --version
+>>> Python 3.5.4
 ```
 
 Open cmd, go to the project folder, and install the libraries by running:
 ```
-py -3.6 -m pip install -r requirements.txt
+py -3.5 -m pip install -r requirements.txt
 ```
 
 ## How to Run the Program
@@ -29,16 +29,16 @@ All commands described below can be ran from cmd.
 
 ### Running main.py
 ```
-py -3.6 main.py
+py -3.5 main.py
 ```
 
 main.py runs all parts of the program and is therefore **not recommended** to run as it may cause issues for data providers (Netfonds/Newsweb). For the moment, the software needs to be manually updated by the user when it comes to dividend information. Running the main.py file may therefore result in the software stopping and an 'error' message showing, if there are new dividends which has not been handled. The developer will try to keep the files in the 'data' folder updated, so that you as a user won't have to do this manual task.
 
 ### Examples of Running rating.py
 ```
-py -3.6 rating.py all           |    (Prints sorted rating based on all historical data and dividends)
-py -3.6 rating.py 2015          |    (Prints sorted rating from 2015)
-py -3.6 rating.py 2010 2014     |    (Prints sorted rating from 2010 to 2014)
+py -3.5 rating.py all           |    (Prints sorted rating based on all historical data and dividends)
+py -3.5 rating.py 2015          |    (Prints sorted rating from 2015)
+py -3.5 rating.py 2010 2014     |    (Prints sorted rating from 2010 to 2014)
 ```
 
 ## Missing Features
