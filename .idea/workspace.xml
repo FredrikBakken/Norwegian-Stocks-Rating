@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b116cd11-778e-4a3b-9ccc-0391f51e9488" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/db_annual_stock_value.json" afterPath="$PROJECT_DIR$/data/db/db_annual_stock_value.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/db_dividend_history.json" afterPath="$PROJECT_DIR$/data/db/db_dividend_history.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/db_stocks.json" afterPath="$PROJECT_DIR$/data/db/db_stocks.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div/AASB-ME.json" afterPath="$PROJECT_DIR$/data/div/AASB-ME.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div/ABT.json" afterPath="$PROJECT_DIR$/data/div/ABT.json" />
@@ -91,6 +91,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div/IMSK.json" afterPath="$PROJECT_DIR$/data/div/IMSK.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div/INC.json" afterPath="$PROJECT_DIR$/data/div/INC.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div/INDUCT-ME.json" afterPath="$PROJECT_DIR$/data/div/INDUCT-ME.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div/INFRNT.json" afterPath="$PROJECT_DIR$/data/div/INFRNT.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div/INSR.json" afterPath="$PROJECT_DIR$/data/div/INSR.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div/IOX.json" afterPath="$PROJECT_DIR$/data/div/IOX.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div/ISSG.json" afterPath="$PROJECT_DIR$/data/div/ISSG.json" />
@@ -188,6 +189,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div/SKBN.json" afterPath="$PROJECT_DIR$/data/div/SKBN.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div/SKUE.json" afterPath="$PROJECT_DIR$/data/div/SKUE.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div/SNI.json" afterPath="$PROJECT_DIR$/data/div/SNI.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div/SNOR.json" afterPath="$PROJECT_DIR$/data/div/SNOR.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div/SOAG.json" afterPath="$PROJECT_DIR$/data/div/SOAG.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div/SOFF.json" afterPath="$PROJECT_DIR$/data/div/SOFF.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div/SOLON.json" afterPath="$PROJECT_DIR$/data/div/SOLON.json" />
@@ -233,7 +235,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div/YAR.json" afterPath="$PROJECT_DIR$/data/div/YAR.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div/ZAL.json" afterPath="$PROJECT_DIR$/data/div/ZAL.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/json/stocks.json" afterPath="$PROJECT_DIR$/data/json/stocks.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AASB-ME.csv" afterPath="$PROJECT_DIR$/data/stocks/AASB-ME.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ABT.csv" afterPath="$PROJECT_DIR$/data/stocks/ABT.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AEGA.csv" afterPath="$PROJECT_DIR$/data/stocks/AEGA.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AFG.csv" afterPath="$PROJECT_DIR$/data/stocks/AFG.csv" />
@@ -254,8 +255,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ASETEK.csv" afterPath="$PROJECT_DIR$/data/stocks/ASETEK.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ATEA.csv" afterPath="$PROJECT_DIR$/data/stocks/ATEA.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ATLA-NOK.csv" afterPath="$PROJECT_DIR$/data/stocks/ATLA-NOK.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ATLU-ME.csv" afterPath="$PROJECT_DIR$/data/stocks/ATLU-ME.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AURG.csv" afterPath="$PROJECT_DIR$/data/stocks/AURG.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AUSS.csv" afterPath="$PROJECT_DIR$/data/stocks/AUSS.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AVANCE.csv" afterPath="$PROJECT_DIR$/data/stocks/AVANCE.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AVM.csv" afterPath="$PROJECT_DIR$/data/stocks/AVM.csv" />
@@ -270,7 +269,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/BIOTEC.csv" afterPath="$PROJECT_DIR$/data/stocks/BIOTEC.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/BMA.csv" afterPath="$PROJECT_DIR$/data/stocks/BMA.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/BON.csv" afterPath="$PROJECT_DIR$/data/stocks/BON.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/BOR.csv" afterPath="$PROJECT_DIR$/data/stocks/BOR.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/BOUVET.csv" afterPath="$PROJECT_DIR$/data/stocks/BOUVET.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/BRG.csv" afterPath="$PROJECT_DIR$/data/stocks/BRG.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/BSP-ME.csv" afterPath="$PROJECT_DIR$/data/stocks/BSP-ME.csv" />
@@ -283,7 +281,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/DNO.csv" afterPath="$PROJECT_DIR$/data/stocks/DNO.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/DOF.csv" afterPath="$PROJECT_DIR$/data/stocks/DOF.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/EAM.csv" afterPath="$PROJECT_DIR$/data/stocks/EAM.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/EIOF.csv" afterPath="$PROJECT_DIR$/data/stocks/EIOF.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/EKO.csv" afterPath="$PROJECT_DIR$/data/stocks/EKO.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/EMGS.csv" afterPath="$PROJECT_DIR$/data/stocks/EMGS.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ENTRA.csv" afterPath="$PROJECT_DIR$/data/stocks/ENTRA.csv" />
@@ -295,7 +292,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/FOE.csv" afterPath="$PROJECT_DIR$/data/stocks/FOE.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/FRO.csv" afterPath="$PROJECT_DIR$/data/stocks/FRO.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/FUNCOM.csv" afterPath="$PROJECT_DIR$/data/stocks/FUNCOM.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/GENT-ME.csv" afterPath="$PROJECT_DIR$/data/stocks/GENT-ME.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/GIG.csv" afterPath="$PROJECT_DIR$/data/stocks/GIG.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/GJF.csv" afterPath="$PROJECT_DIR$/data/stocks/GJF.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/GOD.csv" afterPath="$PROJECT_DIR$/data/stocks/GOD.csv" />
@@ -317,6 +313,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/IMSK.csv" afterPath="$PROJECT_DIR$/data/stocks/IMSK.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/INC.csv" afterPath="$PROJECT_DIR$/data/stocks/INC.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/INDUCT-ME.csv" afterPath="$PROJECT_DIR$/data/stocks/INDUCT-ME.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/INFRNT.csv" afterPath="$PROJECT_DIR$/data/stocks/INFRNT.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/INSR.csv" afterPath="$PROJECT_DIR$/data/stocks/INSR.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/IOX.csv" afterPath="$PROJECT_DIR$/data/stocks/IOX.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ISSG.csv" afterPath="$PROJECT_DIR$/data/stocks/ISSG.csv" />
@@ -332,13 +329,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/KVAER.csv" afterPath="$PROJECT_DIR$/data/stocks/KVAER.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/LINK.csv" afterPath="$PROJECT_DIR$/data/stocks/LINK.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/LSG.csv" afterPath="$PROJECT_DIR$/data/stocks/LSG.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/MEDI.csv" afterPath="$PROJECT_DIR$/data/stocks/MEDI.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/MELG.csv" afterPath="$PROJECT_DIR$/data/stocks/MELG.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/MHG.csv" afterPath="$PROJECT_DIR$/data/stocks/MHG.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/MING.csv" afterPath="$PROJECT_DIR$/data/stocks/MING.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/MONO-ME.csv" afterPath="$PROJECT_DIR$/data/stocks/MONO-ME.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/MORG.csv" afterPath="$PROJECT_DIR$/data/stocks/MORG.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/MPCC-ME.csv" afterPath="$PROJECT_DIR$/data/stocks/MPCC-ME.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/MSEIS.csv" afterPath="$PROJECT_DIR$/data/stocks/MSEIS.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/MULTI.csv" afterPath="$PROJECT_DIR$/data/stocks/MULTI.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/NANO.csv" afterPath="$PROJECT_DIR$/data/stocks/NANO.csv" />
@@ -412,10 +407,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SKBN.csv" afterPath="$PROJECT_DIR$/data/stocks/SKBN.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SKUE.csv" afterPath="$PROJECT_DIR$/data/stocks/SKUE.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SNI.csv" afterPath="$PROJECT_DIR$/data/stocks/SNI.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SNOR.csv" afterPath="$PROJECT_DIR$/data/stocks/SNOR.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SOAG.csv" afterPath="$PROJECT_DIR$/data/stocks/SOAG.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SOFF.csv" afterPath="$PROJECT_DIR$/data/stocks/SOFF.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SOLON.csv" afterPath="$PROJECT_DIR$/data/stocks/SOLON.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SOLV.csv" afterPath="$PROJECT_DIR$/data/stocks/SOLV.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SONG.csv" afterPath="$PROJECT_DIR$/data/stocks/SONG.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SOR.csv" afterPath="$PROJECT_DIR$/data/stocks/SOR.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SPOG.csv" afterPath="$PROJECT_DIR$/data/stocks/SPOG.csv" />
@@ -427,7 +422,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SSO.csv" afterPath="$PROJECT_DIR$/data/stocks/SSO.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/STB.csv" afterPath="$PROJECT_DIR$/data/stocks/STB.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/STL.csv" afterPath="$PROJECT_DIR$/data/stocks/STL.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/STORM.csv" afterPath="$PROJECT_DIR$/data/stocks/STORM.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/STRONG.csv" afterPath="$PROJECT_DIR$/data/stocks/STRONG.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SUBC.csv" afterPath="$PROJECT_DIR$/data/stocks/SUBC.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SVEG.csv" afterPath="$PROJECT_DIR$/data/stocks/SVEG.csv" />
@@ -447,7 +441,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/VISTIN.csv" afterPath="$PROJECT_DIR$/data/stocks/VISTIN.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/VVL.csv" afterPath="$PROJECT_DIR$/data/stocks/VVL.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/WEIFA.csv" afterPath="$PROJECT_DIR$/data/stocks/WEIFA.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/WILS.csv" afterPath="$PROJECT_DIR$/data/stocks/WILS.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/WRE-ME.csv" afterPath="$PROJECT_DIR$/data/stocks/WRE-ME.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/WRL.csv" afterPath="$PROJECT_DIR$/data/stocks/WRL.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/WWI.csv" afterPath="$PROJECT_DIR$/data/stocks/WWI.csv" />
@@ -456,7 +449,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/XXL.csv" afterPath="$PROJECT_DIR$/data/stocks/XXL.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/YAR.csv" afterPath="$PROJECT_DIR$/data/stocks/YAR.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ZAL.csv" afterPath="$PROJECT_DIR$/data/stocks/ZAL.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/download.py" afterPath="$PROJECT_DIR$/download.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating.py" afterPath="$PROJECT_DIR$/rating.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -470,8 +463,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-413">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
               <folding>
                 <element signature="e#1165#1190#0" expanded="true" />
               </folding>
@@ -479,11 +472,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="download.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="download.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-487">
-              <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            <state relative-caret-position="442">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rating.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rating.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -516,8 +519,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data/div/ABT.json" />
-        <option value="$PROJECT_DIR$/data/div/AFG.json" />
         <option value="$PROJECT_DIR$/data/div/AFK.json" />
         <option value="$PROJECT_DIR$/data/iko90p+åøæ/'d/påø0ik7p+øæ/AFK.json" />
         <option value="$PROJECT_DIR$/data/div/AKA.json" />
@@ -567,6 +568,8 @@
         <option value="$PROJECT_DIR$/data/div/NOFI.json" />
         <option value="$PROJECT_DIR$/data/div/NOM.json" />
         <option value="$PROJECT_DIR$/data/div/SNOR.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/rating.py" />
       </list>
     </option>
   </component>
@@ -611,12 +614,6 @@
               <item name="NorwegianStocksRating" type="b2602c69:ProjectViewProjectNode" />
               <item name="NorwegianStocksRating" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NorwegianStocksRating" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NorwegianStocksRating" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -672,19 +669,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24413647" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2468017" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5146262" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41495124" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -706,43 +702,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/div/HIDDN.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div/HLNG.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div/HSPG.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div/HUGO.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/div/HUNT.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -750,7 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -758,7 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -766,7 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,7 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -790,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -798,7 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,7 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -822,7 +776,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,7 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -838,7 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -846,7 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,7 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -862,7 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -870,7 +818,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -878,7 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -886,7 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -894,7 +839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -902,7 +846,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -910,7 +853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -918,7 +860,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -926,7 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -934,7 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -942,7 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -950,7 +888,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -958,7 +895,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -966,7 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -974,7 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -982,7 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -990,7 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -998,7 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1006,7 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1014,7 +944,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1022,7 +951,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1030,7 +958,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1038,7 +965,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1046,7 +972,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1054,7 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,7 +986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,7 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1078,7 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,7 +1007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1094,14 +1014,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-413">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="15" column="22" lean-forward="false" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
             <element signature="e#1165#1190#0" expanded="true" />
           </folding>
@@ -1110,8 +1029,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-487">
-          <caret line="15" column="27" lean-forward="true" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        <state relative-caret-position="442">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/stocks/WRL.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/stocks/WSTEP.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
           <folding />
         </state>
       </provider>

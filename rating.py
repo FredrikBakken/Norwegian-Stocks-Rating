@@ -29,7 +29,10 @@ from db import db_get_dividends, db_number_of_stocks, db_id_stocks
 
 
 def calculate_profit(ticker, dividend, start, end):
-    profit = (end + dividend) / (start)
+    if not start == 0:
+        profit = (end + dividend) / (start)
+    else:
+        profit = 0
     return [ticker, profit, start, end, dividend]
 
 
@@ -95,11 +98,15 @@ def rating(arg):
             with open(filename, 'r') as f:
                 next(f)
                 second_line = f.readline()
-                second_line_split = second_line.split(',')
-                end_stock_value = float(second_line_split[6])
-                last_line = list(f)[-1]
-                last_line_split = last_line.split(',')
-                start_stock_value = float(last_line_split[6])
+                if not second_line == '':
+                    second_line_split = second_line.split(',')
+                    end_stock_value = float(second_line_split[6])
+                    last_line = list(f)[-1]
+                    last_line_split = last_line.split(',')
+                    start_stock_value = float(last_line_split[6])
+                else:
+                    start_stock_value = 0
+                    end_stock_value = 0
 
             profit = calculate_profit(ticker, total_dividend, start_stock_value, end_stock_value)
             profit_list.append(profit)
