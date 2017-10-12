@@ -37,6 +37,14 @@ db_split_history = TinyDB('data/db/db_split_history.json')
 db_annual_stock_value = TinyDB('data/db/db_annual_stock_value.json')
 
 
+# Generic method for insert response
+def insert_success(before, after):
+    if after > before:
+        return True
+    else:
+        return False
+
+
 # INSERT DATABASE: Stocks
 def db_insert_stocks(ticker, name, source):
     exist = db_search_stocks(ticker)
@@ -45,10 +53,8 @@ def db_insert_stocks(ticker, name, source):
         db_stocks.insert({'ticker': ticker, 'name': name, 'source': source})
         after = len(db_stocks)
 
-        if after > before:
-            return True
-        else:
-            return False
+        response = insert_success(before, after)
+        return response
     else:
         return False
 
@@ -69,10 +75,8 @@ def db_insert_dividend_history(ticker, date, dividend, currency):
                                     'dividend': dividend, 'currency': currency})
         after = len(db_dividend_history)
 
-        if after > before:
-            return True
-        else:
-            return False
+        response = insert_success(before, after)
+        return response
     else:
         return False
 
@@ -83,20 +87,17 @@ def db_insert_split_history(ticker, date, split_from, split_to):
     year = date_split[2]
     month = date_split[1]
     day = date_split[0]
-
     formatted_date = year + month + day
 
     exist = db_search_split_history(ticker, formatted_date)
     if not exist:
         before = len(db_split_history)
         db_split_history.insert({'ticker': ticker, 'date': formatted_date,
-                                    'split_from': split_from, 'split_to': split_to})
+                                 'split_from': split_from, 'split_to': split_to})
         after = len(db_split_history)
 
-        if after > before:
-            return True
-        else:
-            return False
+        response = insert_success(before, after)
+        return response
     else:
         return False
 
@@ -109,10 +110,8 @@ def db_insert_annual_stock_value(ticker, date, value):
         db_annual_stock_value.insert({'ticker': ticker, 'date': date, 'value': value})
         after = len(db_annual_stock_value)
 
-        if after > before:
-            return True
-        else:
-            return False
+        response = insert_success(before, after)
+        return response
     else:
         return False
 
