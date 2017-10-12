@@ -40,8 +40,11 @@ def download_stocks():
 
         # Loop through defined markets
         for x in range(len(markets)):
+            market_tag = markets[x][0]
+            market_name = markets[x][1]
+
             # Download stocks on the market
-            download = s.get('http://www.netfonds.no/quotes/kurs.php?exchange=' + markets[x][0] + '&sec_types=&sectors=&ticks=&table=tab&sort=alphabetic')
+            download = s.get('http://www.netfonds.no/quotes/kurs.php?exchange=' + market_tag + '&sec_types=&sectors=&ticks=&table=tab&sort=alphabetic')
             decode = download.content.decode('iso-8859-1')
             csr = csv.reader(decode.splitlines(), delimiter='\t')
             stocklist = list(csr)
@@ -53,7 +56,7 @@ def download_stocks():
 
                 for row in stocklist:
                     print("Download ticker: " + row[1])
-                    row.append(markets[x][1])
+                    row.append(market_name)
                     writer.writerow(row)
 
     print("Updated stocks data has been downloaded to 'data/json/stocks.json'.")
@@ -76,7 +79,7 @@ def store_stocks():
             source = str(cells[13].strip())
 
             # Run through tests before inserting data to the database
-            if "OBTEST" not in ticker:
+            if 'OBTEST' not in ticker:
                 exist_ticker = db_search_stocks(ticker)
 
                 if not exist_ticker:
