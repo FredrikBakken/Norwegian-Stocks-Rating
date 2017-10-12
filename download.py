@@ -13,11 +13,13 @@
 ### Website: https://www.fredrikbakken.no/
 ### Github:  https://github.com/FredrikBakken
 ###
-### Last update: 11.10.2017
+### Last update: 12.10.2017
 '''
 
+import os
 import csv
 import requests
+import contextlib
 
 from db import db_insert_stocks, db_search_stocks
 
@@ -27,57 +29,41 @@ json_storage = 'data/json/stocks.json'
 
 def download_stocks():
     # Oslo Bors, Oslo Axess, and Merkur stock urls
-    url_bors = 'http://www.netfonds.no/quotes/kurs.php?exchange=OSE' \
-               '&sec_types=&sectors=&ticks=&table=tab&sort=alphabetic'
-    url_axess = 'http://www.netfonds.no/quotes/kurs.php?exchange=OAX' \
-                '&sec_types=&sectors=&ticks=&table=tab&sort=alphabetic'
-    url_merkur = 'http://www.netfonds.no/quotes/kurs.php?exchange=MERK' \
-                 '&sec_types=&sectors=&ticks=&table=tab&sort=alphabetic'
+    markets = ['OSE', 'OAX', 'MERK']
 
-    # Open urls
+    # Delete old stocks overview file
+    with contextlib.suppress(FileNotFoundError):
+        os.remove(json_storage)
+
+    # Open session
     with requests.Session() as s:
-        # Access data from Oslo Bors
-        download_bors = s.get(url_bors)
-        decode_bors = download_bors.content.decode('iso-8859-1')
-        csr_bors = csv.reader(decode_bors.splitlines(), delimiter='\t')
-        list_bors = list(csr_bors)
-        list_bors.pop(0)
 
-        # Access data from Oslo Axess
-        download_axess = s.get(url_axess)
-        decode_axess = download_axess.content.decode('iso-8859-1')
-        csr_axess = csv.reader(decode_axess.splitlines(), delimiter='\t')
-        list_axess = list(csr_axess)
-        list_axess.pop(0)
+        # Loop through defined markets
+        for x in range(len(markets)):
+            # Download stocks on the market
+            download = s.get('http://www.netfonds.no/quotes/kurs.php?exchange=' + markets[x] + '&sec_types=&sectors=&ticks=&table=tab&sort=alphabetic')
+            decode = download.content.decode('iso-8859-1')
+            csr = csv.reader(decode.splitlines(), delimiter='\t')
+            stocklist = list(csr)
+            stocklist.pop(0)
 
-        # Access data from Merkur
-        download_merkur = s.get(url_merkur)
-        decode_merkur = download_merkur.content.decode('iso-8859-1')
-        csr_merkur = csv.reader(decode_merkur.splitlines(), delimiter='\t')
-        list_merkur = list(csr_merkur)
-        list_merkur.pop(0)
+            # Write stocks to file
+            with open(json_storage, 'a', newline='') as file:
+                writer = csv.writer(file, delimiter=',')
 
-        # Open write access to temporary stocks file
-        with open(json_storage, 'w', newline='') as file:
-            writer = csv.writer(file, delimiter=',')
+                for row in stocklist:
+                    print("Download ticker: " + row[1])
 
-            # Write data from Oslo Bors
-            for row in list_bors:
-                print("Download ticker: " + row[1])
-                row.append('Oslo Børs')
-                writer.writerow(row)
+                    mark = ''
+                    if markets[x] == 'OSE':
+                        mark = 'Oslo Børs'
+                    elif markets[x] == 'OAX':
+                        mark = 'Oslo Axess'
+                    elif markets[x] == 'MERK':
+                        mark = 'Merkur'
 
-            # Write data from Oslo Axess
-            for row in list_axess:
-                print("Download ticker: " + row[1])
-                row.append('Oslo Axess')
-                writer.writerow(row)
-
-            # Write data from Merkur
-            for row in list_merkur:
-                print("Download ticker: " + row[1])
-                row.append('Merkur')
-                writer.writerow(row)
+                    row.append(mark)
+                    writer.writerow(row)
 
     print("Updated stocks data has been downloaded to 'data/json/stocks.json'.")
 

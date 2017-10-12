@@ -45,7 +45,7 @@ def handle_dividend(ticker):
 
         # For each line in file
         for line in f:
-            # Split line and organize content into: date, type, amount, currency
+            # Split line and organize content into: date and type
             line_split = line.split(',')
             date = line_split[0]
             data_type = line_split[1]
