@@ -29,7 +29,7 @@ json_storage = 'data/json/stocks.json'
 
 def download_stocks():
     # Oslo Bors, Oslo Axess, and Merkur stock urls
-    markets = ['OSE', 'OAX', 'MERK']
+    markets = [['OSE', 'Oslo Børs'], ['OAX', 'Oslo Axess'], ['MERK', 'Merkur']]
 
     # Delete old stocks overview file
     with contextlib.suppress(FileNotFoundError):
@@ -41,7 +41,7 @@ def download_stocks():
         # Loop through defined markets
         for x in range(len(markets)):
             # Download stocks on the market
-            download = s.get('http://www.netfonds.no/quotes/kurs.php?exchange=' + markets[x] + '&sec_types=&sectors=&ticks=&table=tab&sort=alphabetic')
+            download = s.get('http://www.netfonds.no/quotes/kurs.php?exchange=' + markets[x][0] + '&sec_types=&sectors=&ticks=&table=tab&sort=alphabetic')
             decode = download.content.decode('iso-8859-1')
             csr = csv.reader(decode.splitlines(), delimiter='\t')
             stocklist = list(csr)
@@ -53,16 +53,7 @@ def download_stocks():
 
                 for row in stocklist:
                     print("Download ticker: " + row[1])
-
-                    mark = ''
-                    if markets[x] == 'OSE':
-                        mark = 'Oslo Børs'
-                    elif markets[x] == 'OAX':
-                        mark = 'Oslo Axess'
-                    elif markets[x] == 'MERK':
-                        mark = 'Merkur'
-
-                    row.append(mark)
+                    row.append(markets[x][1])
                     writer.writerow(row)
 
     print("Updated stocks data has been downloaded to 'data/json/stocks.json'.")
