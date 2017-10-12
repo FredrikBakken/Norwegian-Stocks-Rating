@@ -149,6 +149,18 @@ def rating(arg):
                 if dividend_data[x]['date'].startswith(arg[1]):
                     total_dividend = total_dividend + float(dividend_data[x]['dividend'])
 
+            # Check for split data
+            split_data = db_get_splits(ticker)
+            split_date_list = sort_on_date(split_data)
+            split_variation = 1
+            for x in range(len(split_date_list)):
+                if split_data[x]['date'].startswith(arg[1]):
+                    split_from = split_data[x]['split_from']
+                    split_to = split_data[x]['split_to']
+
+                    split_variation = ((split_variation * int(split_from)) / int(split_to))
+
+
             # Find start and end stock value
             filename = 'data/stocks/' + ticker + '.csv'
             found_date = False
@@ -167,7 +179,7 @@ def rating(arg):
                 previous_line_split = previous_line.split(',')
                 start_stock_value = float(previous_line_split[6])
 
-            profit = calculate_profit(ticker, total_dividend, start_stock_value, end_stock_value)
+            profit = calculate_profit(ticker, total_dividend, start_stock_value, end_stock_value, split_variation)
             profit_list.append(profit)
 
     # If rate selected is from/to specific years
