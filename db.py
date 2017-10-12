@@ -172,14 +172,12 @@ def db_id_stock_source(s_id):
 # SEARCH DATABASE: Get dividends
 def db_get_dividends(ticker):
     result = db_dividend_history.search(where('ticker') == ticker)
-
     return result
 
 
 # SEARCH DATABASE: Get splits
 def db_get_splits(ticker):
     result = db_split_history.search(where('ticker') == ticker)
-
     return result
 
 
