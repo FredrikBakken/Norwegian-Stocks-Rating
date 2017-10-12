@@ -17,7 +17,7 @@
 ### Website: https://www.fredrikbakken.no/
 ### Github:  https://github.com/FredrikBakken
 ###
-### Last update: 23.09.2017
+### Last update: 11.10.2017
 '''
 
 import sys
@@ -98,12 +98,15 @@ def rating(arg):
             with open(filename, 'r') as f:
                 next(f)
                 second_line = f.readline()
-                if not second_line == '':
+                if (not second_line == ''):
                     second_line_split = second_line.split(',')
                     end_stock_value = float(second_line_split[6])
-                    last_line = list(f)[-1]
-                    last_line_split = last_line.split(',')
-                    start_stock_value = float(last_line_split[6])
+                    try:
+                        last_line = list(f)[-1]
+                        last_line_split = last_line.split(',')
+                        start_stock_value = float(last_line_split[6])
+                    except IndexError:
+                        start_stock_value = end_stock_value
                 else:
                     start_stock_value = 0
                     end_stock_value = 0
