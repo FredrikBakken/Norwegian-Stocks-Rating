@@ -186,7 +186,7 @@ def rating(arg):
     elif number_of_arguments == 2:
         print("Rating stocks from " + arg[1] + " to " + arg[2] + '...')
 
-        # Add relevanted years to a list
+        # Add relevant years to a list
         year_from = int(arg[1])
         year_to = int(arg[2])
         difference = (year_to - year_from)
@@ -216,6 +216,18 @@ def rating(arg):
                     if dividend_data[y]['date'].startswith(str(years[x])):
                         total_dividend = total_dividend + float(dividend_data[y]['dividend'])
 
+            # Check for split data
+            split_data = db_get_splits(ticker)
+
+            split_variation = 1
+            for x in range(len(years)):
+                for y in range(len(split_data)):
+                    if split_data[y]['date'].startswith(str(years[x])):
+                        split_from = split_data[y]['split_from']
+                        split_to = split_data[y]['split_to']
+
+                        split_variation = ((split_variation * int(split_from)) / int(split_to))
+
             # Find start and end stock value
             filename = 'data/stocks/' + ticker + '.csv'
             found_date = False
@@ -235,7 +247,7 @@ def rating(arg):
                 previous_line_split = previous_line.split(',')
                 start_stock_value = float(previous_line_split[6])
 
-            profit = calculate_profit(ticker, total_dividend, start_stock_value, end_stock_value)
+            profit = calculate_profit(ticker, total_dividend, start_stock_value, end_stock_value, split_variation)
             profit_list.append(profit)
 
     # Else: Invalid arguments
