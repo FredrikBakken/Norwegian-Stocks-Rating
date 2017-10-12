@@ -17,12 +17,15 @@
 ### Database | DIVIDEND HISTORY |
 ### Ticker , Date , Dividend , Currency
 ###
+### Database | SPLIT HISTORY |
+### Ticker, Date, From, To
+###
 ### @Author: Fredrik Bakken
 ### Email:   fredrik.bakken(at)gmail.com
 ### Website: https://www.fredrikbakken.no/
 ### Github:  https://github.com/FredrikBakken
 ###
-### Last update: 22.09.2017
+### Last update: 12.10.2017
 '''
 
 from tinydb import TinyDB, where
@@ -30,6 +33,7 @@ from tinydb import TinyDB, where
 # Database links
 db_stocks = TinyDB('data/db/db_stocks.json')
 db_dividend_history = TinyDB('data/db/db_dividend_history.json')
+db_split_history = TinyDB('data/db/db_split_history.json')
 db_annual_stock_value = TinyDB('data/db/db_annual_stock_value.json')
 
 
@@ -73,6 +77,30 @@ def db_insert_dividend_history(ticker, date, dividend, currency):
         return False
 
 
+# INSERT DATABASE: Ex.split History
+def db_insert_split_history(ticker, date, split_from, split_to):
+    date_split = date.split('.')
+    year = date_split[2]
+    month = date_split[1]
+    day = date_split[0]
+
+    formatted_date = year + month + day
+
+    exist = db_search_split_history(ticker, formatted_date)
+    if not exist:
+        before = len(db_split_history)
+        db_split_history.insert({'ticker': ticker, 'date': formatted_date,
+                                    'split_from': split_from, 'split_to': split_to})
+        after = len(db_split_history)
+
+        if after > before:
+            return True
+        else:
+            return False
+    else:
+        return False
+
+
 # INSERT DATABASE: Annual Stock Value
 def db_insert_annual_stock_value(ticker, date, value):
     exist = db_search_annual_stock_value(ticker, date)
@@ -100,6 +128,14 @@ def db_search_dividend_history(ticker, date, dividend):
     result = db_dividend_history.search((where('ticker') == ticker) &
                                         (where('date') == date) &
                                         (where('dividend') == dividend))
+
+    print(result)
+    return result
+
+
+def db_search_split_history(ticker, date):
+    result = db_split_history.search((where('ticker') == ticker) &
+                                     (where('date') == date))
 
     print(result)
     return result

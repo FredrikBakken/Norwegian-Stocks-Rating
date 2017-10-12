@@ -13,10 +13,10 @@
 ### Website: https://www.fredrikbakken.no/
 ### Github:  https://github.com/FredrikBakken
 ###
-### Last update: 22.09.2017
+### Last update: 12.10.2017
 '''
 
-from db import db_number_of_stocks, db_id_stocks, db_insert_dividend_history
+from db import db_number_of_stocks, db_id_stocks, db_insert_dividend_history, db_insert_split_history
 
 
 def store_dividends():
@@ -49,15 +49,25 @@ def handle_dividend(ticker):
             line_split = line.split(',')
             date = line_split[0]
             data_type = line_split[1]
-            amount_holder = line_split[2]
-            amount_holder_split = amount_holder.split(' ')
-            dividend = amount_holder_split[0]
-            currency = amount_holder_split[-1].rstrip()
+            data_value = line_split[2]
 
             # If line is dividend, store into dividend database
             if data_type == 'Dividend':
+                amount_holder = data_value
+                amount_holder_split = amount_holder.split(' ')
+                dividend = amount_holder_split[0]
+                currency = amount_holder_split[-1].rstrip()
                 db_insert_dividend_history(ticker, date, dividend, currency)
                 print(ticker + " has dividend on " + date + " at " + dividend + ' ' + currency)
+
+            # If line is ex.split, store into split database
+            if data_type == 'Ex.Split':
+                split_data = data_value
+                split_data_split = split_data.split(':')
+                split_from = split_data_split[0]
+                split_to = split_data_split[-1].rstrip()
+                db_insert_split_history(ticker, date, split_from, split_to)
+                print(ticker + " has ex.split on " + date + " at rate: " + split_data)
 
     return True
 
