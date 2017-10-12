@@ -17,7 +17,7 @@
 ### Website: https://www.fredrikbakken.no/
 ### Github:  https://github.com/FredrikBakken
 ###
-### Last update: 11.10.2017
+### Last update: 12.10.2017
 '''
 
 import sys
@@ -25,15 +25,16 @@ import datetime
 
 from prettytable import PrettyTable
 
-from db import db_get_dividends, db_number_of_stocks, db_id_stocks
+from db import db_get_dividends, db_get_splits, db_number_of_stocks, db_id_stocks
 
 
-def calculate_profit(ticker, dividend, start, end):
+def calculate_profit(ticker, dividend, start, end, split_variation):
+    start_split = (start / split_variation)
     if not start == 0:
-        profit = (end + dividend) / (start)
+        profit = (end + dividend) / start_split
     else:
         profit = 0
-    return [ticker, profit, start, end, dividend]
+    return [ticker, profit, start, start_split, end, dividend]
 
 
 def sort_on_date(data):
@@ -93,6 +94,15 @@ def rating(arg):
                         if from_date_dividend <= current_date <= to_date_dividend:
                             total_dividend = total_dividend + float(dividend_data[x]['dividend'])
 
+            # Check for split data
+            split_data = db_get_splits(ticker)
+            split_variation = 1
+            for x in range(len(split_data)):
+                split_from = split_data[x]['split_from']
+                split_to = split_data[x]['split_to']
+
+                split_variation = ((split_variation * int(split_from)) / int(split_to))
+
             # Find start and end stock value
             filename = 'data/stocks/' + ticker + '.csv'
             with open(filename, 'r') as f:
@@ -111,7 +121,7 @@ def rating(arg):
                     start_stock_value = 0
                     end_stock_value = 0
 
-            profit = calculate_profit(ticker, total_dividend, start_stock_value, end_stock_value)
+            profit = calculate_profit(ticker, total_dividend, start_stock_value, end_stock_value, split_variation)
             profit_list.append(profit)
 
     # If rate select is specific year
@@ -223,7 +233,7 @@ def rating(arg):
 
     sorted_list = sorted(profit_list, key=lambda x: x[1])
 
-    t = PrettyTable(['Loss / Profit', 'Ticker', 'Total (%)', 'From stock value', 'To stock value', 'Total dividend'])
+    t = PrettyTable(['Loss / Profit', 'Ticker', 'Total (%)', 'From stock value (orginal)', 'From stock value (split)', 'To stock value', 'Total dividend'])
 
     for x in range(len(sorted_list)):
         if sorted_list[x][1] > 1:
@@ -233,14 +243,17 @@ def rating(arg):
         else:
             loss_profit = 'NO CHANGE'
 
-        if sorted_list[x][4] == 0:
+        if sorted_list[x][5] == 0:
             dividend = '-'
         else:
-            dividend = '{0:.2f}'.format(sorted_list[x][4]) + ' kr'
+            dividend = '{0:.2f}'.format(sorted_list[x][5]) + ' kr'
 
-        if not (sorted_list[x][1] == 0 and sorted_list[x][2] == 0 and sorted_list[x][3] == 0):
+        if not (sorted_list[x][1] == 0 and sorted_list[x][2] == 0 and sorted_list[x][4] == 0):
             t.add_row([loss_profit, sorted_list[x][0], '{:.3%}'.format(sorted_list[x][1]),
-                       '{0:.2f}'.format(sorted_list[x][2]), '{0:.2f}'.format(sorted_list[x][3]), dividend])
+                       '{0:.2f}'.format(sorted_list[x][2]), '{0:.2f}'.format(sorted_list[x][3]),
+                       '{0:.2f}'.format(sorted_list[x][4]), dividend])
+
+    # return [ticker, profit, start, start_split, end, dividend]
 
     print(t)
 

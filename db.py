@@ -177,6 +177,13 @@ def db_get_dividends(ticker):
     return result
 
 
+# SEARCH DATABASE: Get splits
+def db_get_splits(ticker):
+    result = db_split_history.search(where('ticker') == ticker)
+
+    return result
+
+
 # SEARCH DATABASE: Get annual stock value
 def db_get_annual_stock_value(ticker):
     result = db_annual_stock_value.search(where('ticker') == ticker)
