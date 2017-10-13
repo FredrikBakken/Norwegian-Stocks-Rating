@@ -101,7 +101,7 @@ def rating(arg):
                 split_from = split_data[x]['split_from']
                 split_to = split_data[x]['split_to']
 
-                split_variation = ((split_variation * int(split_from)) / int(split_to))
+                split_variation = ((split_variation * float(split_from)) / float(split_to))
 
             # Find start and end stock value
             filename = 'data/stocks/' + ticker + '.csv'
@@ -158,7 +158,7 @@ def rating(arg):
                     split_from = split_data[x]['split_from']
                     split_to = split_data[x]['split_to']
 
-                    split_variation = ((split_variation * int(split_from)) / int(split_to))
+                    split_variation = ((split_variation * float(split_from)) / float(split_to))
 
 
             # Find start and end stock value
@@ -226,7 +226,7 @@ def rating(arg):
                         split_from = split_data[y]['split_from']
                         split_to = split_data[y]['split_to']
 
-                        split_variation = ((split_variation * int(split_from)) / int(split_to))
+                        split_variation = ((split_variation * float(split_from)) / float(split_to))
 
             # Find start and end stock value
             filename = 'data/stocks/' + ticker + '.csv'

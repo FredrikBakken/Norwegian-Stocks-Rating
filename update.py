@@ -26,6 +26,7 @@ import sys
 import math
 import time
 import datetime
+import contextlib
 
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
@@ -67,7 +68,7 @@ def update():
     number_of_stocks = db_number_of_stocks()
 
     # Start by deleting the updates.txt file
-    if os.path.isfile(updates_filename):
+    with contextlib.suppress(FileNotFoundError):
         os.remove(updates_filename)
 
     # Execute one ticker at the time

@@ -16,6 +16,8 @@
 ### Last update: 12.10.2017
 '''
 
+import sys
+
 from db import db_number_of_stocks, db_id_stocks, db_insert_dividend_history, db_insert_split_history
 
 
@@ -50,6 +52,11 @@ def handle_dividend(ticker):
             date = line_split[0]
             data_type = line_split[1]
             data_value = line_split[2]
+
+            # Perform a control check of the contents
+            if not ((data_type == 'Dividend') or (data_type == 'Ex.Split') or (data_type == 'Info')):
+                sys.exit('\nOBS!\nThere are dividend/split updates which has not been fixed.\n'
+                         'Please update data for file: ' + ticker_filename)
 
             # If line is dividend, store into dividend database
             if data_type == 'Dividend':
