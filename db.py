@@ -20,6 +20,9 @@
 ### Database | SPLIT HISTORY |
 ### Ticker, Date, From, To
 ###
+### Database | STOCK VALUES |
+### Date, Open, High, Low, Close, Volume, Value
+###
 ### @Author: Fredrik Bakken
 ### Email:   fredrik.bakken(at)gmail.com
 ### Website: https://www.fredrikbakken.no/
@@ -116,6 +119,23 @@ def db_insert_annual_stock_value(ticker, date, value):
         return False
 
 
+# INSERT DATABASE: Stock Value
+def db_insert_stock_value(ticker, date, open, high, low, close, volume, value):
+    db_stock_value = TinyDB('data/db/value/' + ticker + '.json')
+
+    exist = db_search_stock_value(db_stock_value, date)
+    if not exist:
+        before = len(db_stock_value)
+        db_stock_value.insert({'date': date, 'open': open, 'high': high, 'low': low,
+                               'close': close, 'volume': volume, 'value': value})
+        after = len(db_stock_value)
+
+        response = insert_success(before, after)
+        return response
+    else:
+        return False
+
+
 #  SEARCH DATABASE (DUPLICATE HANDLER): Stocks
 def db_search_stocks(ticker):
     result = db_stocks.search(where('ticker') == ticker)
@@ -144,6 +164,13 @@ def db_search_split_history(ticker, date):
 def db_search_annual_stock_value(ticker, date):
     result = db_annual_stock_value.search((where('ticker') == ticker) &
                                           (where('date') == date))
+
+    return result
+
+
+# SEARCH DATABASE (DUPLICATE HANDLER): Stock Value
+def db_search_stock_value(db, date):
+    result = db.search(where('date') == date)
 
     return result
 

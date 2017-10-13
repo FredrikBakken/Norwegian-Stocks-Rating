@@ -54,7 +54,7 @@ def handle_dividend(ticker):
             data_value = line_split[2]
 
             # Perform a control check of the contents
-            if not ((data_type == 'Dividend') or (data_type == 'Ex.Split') or (data_type == 'Info')):
+            if not ((data_type == 'Dividend') or (data_type == 'Ex.Split') or (data_type == 'Info')) or data_value == 'amount':
                 sys.exit('\nOBS!\nThere are dividend/split updates which has not been fixed.\n'
                          'Please update data for file: ' + ticker_filename)
 
