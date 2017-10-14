@@ -31,6 +31,8 @@
 ### Last update: 12.10.2017
 '''
 
+import os
+
 from tinydb import TinyDB, where
 
 # Database links
@@ -121,7 +123,12 @@ def db_insert_annual_stock_value(ticker, date, value):
 
 # INSERT DATABASE: Stock Value
 def db_insert_stock_value(ticker, date, open, high, low, close, volume, value):
-    db_stock_value = TinyDB('data/db/value/' + ticker + '.json')
+    filename = ticker + '.json'
+    directory = 'data/db/value/'
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
+    db_stock_value = TinyDB(directory + filename)
 
     exist = db_search_stock_value(db_stock_value, date)
     if not exist:

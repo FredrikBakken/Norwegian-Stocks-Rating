@@ -3,8 +3,218 @@
   <component name="ChangeListManager">
     <list default="true" id="b116cd11-778e-4a3b-9ccc-0391f51e9488" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ABT.csv" afterPath="$PROJECT_DIR$/data/stocks/ABT.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AEGA.csv" afterPath="$PROJECT_DIR$/data/stocks/AEGA.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AFG.csv" afterPath="$PROJECT_DIR$/data/stocks/AFG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AFK.csv" afterPath="$PROJECT_DIR$/data/stocks/AFK.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AKA.csv" afterPath="$PROJECT_DIR$/data/stocks/AKA.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AKER.csv" afterPath="$PROJECT_DIR$/data/stocks/AKER.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AKERBP.csv" afterPath="$PROJECT_DIR$/data/stocks/AKERBP.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AKSO.csv" afterPath="$PROJECT_DIR$/data/stocks/AKSO.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AKVA.csv" afterPath="$PROJECT_DIR$/data/stocks/AKVA.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ALNG.csv" afterPath="$PROJECT_DIR$/data/stocks/ALNG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AMSC.csv" afterPath="$PROJECT_DIR$/data/stocks/AMSC.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/APCL.csv" afterPath="$PROJECT_DIR$/data/stocks/APCL.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/APP.csv" afterPath="$PROJECT_DIR$/data/stocks/APP.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AQUA.csv" afterPath="$PROJECT_DIR$/data/stocks/AQUA.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ARCHER.csv" afterPath="$PROJECT_DIR$/data/stocks/ARCHER.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ARCUS.csv" afterPath="$PROJECT_DIR$/data/stocks/ARCUS.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ASC.csv" afterPath="$PROJECT_DIR$/data/stocks/ASC.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ASETEK.csv" afterPath="$PROJECT_DIR$/data/stocks/ASETEK.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ATEA.csv" afterPath="$PROJECT_DIR$/data/stocks/ATEA.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ATLU-ME.csv" afterPath="$PROJECT_DIR$/data/stocks/ATLU-ME.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AURG.csv" afterPath="$PROJECT_DIR$/data/stocks/AURG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AUSS.csv" afterPath="$PROJECT_DIR$/data/stocks/AUSS.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AVANCE.csv" afterPath="$PROJECT_DIR$/data/stocks/AVANCE.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AVM.csv" afterPath="$PROJECT_DIR$/data/stocks/AVM.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AWDR.csv" afterPath="$PROJECT_DIR$/data/stocks/AWDR.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AXA.csv" afterPath="$PROJECT_DIR$/data/stocks/AXA.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/B2H.csv" afterPath="$PROJECT_DIR$/data/stocks/B2H.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/BAKKA.csv" afterPath="$PROJECT_DIR$/data/stocks/BAKKA.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/BDRILL-ME.csv" afterPath="$PROJECT_DIR$/data/stocks/BDRILL-ME.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/BDRILL.csv" afterPath="$PROJECT_DIR$/data/stocks/BDRILL.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/BEL.csv" afterPath="$PROJECT_DIR$/data/stocks/BEL.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/BERGEN.csv" afterPath="$PROJECT_DIR$/data/stocks/BERGEN.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/BGBIO.csv" afterPath="$PROJECT_DIR$/data/stocks/BGBIO.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/BIOTEC.csv" afterPath="$PROJECT_DIR$/data/stocks/BIOTEC.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/BMA.csv" afterPath="$PROJECT_DIR$/data/stocks/BMA.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/BON.csv" afterPath="$PROJECT_DIR$/data/stocks/BON.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/BOUVET.csv" afterPath="$PROJECT_DIR$/data/stocks/BOUVET.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/BRG.csv" afterPath="$PROJECT_DIR$/data/stocks/BRG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/BWLPG.csv" afterPath="$PROJECT_DIR$/data/stocks/BWLPG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/BWO.csv" afterPath="$PROJECT_DIR$/data/stocks/BWO.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/COV.csv" afterPath="$PROJECT_DIR$/data/stocks/COV.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/CXENSE.csv" afterPath="$PROJECT_DIR$/data/stocks/CXENSE.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/DAT.csv" afterPath="$PROJECT_DIR$/data/stocks/DAT.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/DNB.csv" afterPath="$PROJECT_DIR$/data/stocks/DNB.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/DNO.csv" afterPath="$PROJECT_DIR$/data/stocks/DNO.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/DOF.csv" afterPath="$PROJECT_DIR$/data/stocks/DOF.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/EAM.csv" afterPath="$PROJECT_DIR$/data/stocks/EAM.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/EIOF.csv" afterPath="$PROJECT_DIR$/data/stocks/EIOF.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/EKO.csv" afterPath="$PROJECT_DIR$/data/stocks/EKO.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/EMGS.csv" afterPath="$PROJECT_DIR$/data/stocks/EMGS.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ENTRA.csv" afterPath="$PROJECT_DIR$/data/stocks/ENTRA.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/EPR.csv" afterPath="$PROJECT_DIR$/data/stocks/EPR.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/EVRY.csv" afterPath="$PROJECT_DIR$/data/stocks/EVRY.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/FJORD.csv" afterPath="$PROJECT_DIR$/data/stocks/FJORD.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/FLNG.csv" afterPath="$PROJECT_DIR$/data/stocks/FLNG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/FOE.csv" afterPath="$PROJECT_DIR$/data/stocks/FOE.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/FRO.csv" afterPath="$PROJECT_DIR$/data/stocks/FRO.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/FUNCOM.csv" afterPath="$PROJECT_DIR$/data/stocks/FUNCOM.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/GIG.csv" afterPath="$PROJECT_DIR$/data/stocks/GIG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/GJF.csv" afterPath="$PROJECT_DIR$/data/stocks/GJF.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/GOD.csv" afterPath="$PROJECT_DIR$/data/stocks/GOD.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/GOGL.csv" afterPath="$PROJECT_DIR$/data/stocks/GOGL.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/GSF.csv" afterPath="$PROJECT_DIR$/data/stocks/GSF.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/GYL.csv" afterPath="$PROJECT_DIR$/data/stocks/GYL.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/HAVI.csv" afterPath="$PROJECT_DIR$/data/stocks/HAVI.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/HBC.csv" afterPath="$PROJECT_DIR$/data/stocks/HBC.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/HELG.csv" afterPath="$PROJECT_DIR$/data/stocks/HELG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/HEX.csv" afterPath="$PROJECT_DIR$/data/stocks/HEX.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/HIDDN.csv" afterPath="$PROJECT_DIR$/data/stocks/HIDDN.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/HLNG.csv" afterPath="$PROJECT_DIR$/data/stocks/HLNG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/HUGO.csv" afterPath="$PROJECT_DIR$/data/stocks/HUGO.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/HUNT.csv" afterPath="$PROJECT_DIR$/data/stocks/HUNT.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/HYARD.csv" afterPath="$PROJECT_DIR$/data/stocks/HYARD.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/IDEX.csv" afterPath="$PROJECT_DIR$/data/stocks/IDEX.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/IMSK.csv" afterPath="$PROJECT_DIR$/data/stocks/IMSK.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/INC.csv" afterPath="$PROJECT_DIR$/data/stocks/INC.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/INDUCT-ME.csv" afterPath="$PROJECT_DIR$/data/stocks/INDUCT-ME.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/INFRNT.csv" afterPath="$PROJECT_DIR$/data/stocks/INFRNT.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/INSR.csv" afterPath="$PROJECT_DIR$/data/stocks/INSR.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/IOX.csv" afterPath="$PROJECT_DIR$/data/stocks/IOX.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ISSG.csv" afterPath="$PROJECT_DIR$/data/stocks/ISSG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ITE.csv" afterPath="$PROJECT_DIR$/data/stocks/ITE.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ITX.csv" afterPath="$PROJECT_DIR$/data/stocks/ITX.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/JIN.csv" afterPath="$PROJECT_DIR$/data/stocks/JIN.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/KID.csv" afterPath="$PROJECT_DIR$/data/stocks/KID.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/KIT.csv" afterPath="$PROJECT_DIR$/data/stocks/KIT.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/KOA.csv" afterPath="$PROJECT_DIR$/data/stocks/KOA.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/KOG.csv" afterPath="$PROJECT_DIR$/data/stocks/KOG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/KVAER.csv" afterPath="$PROJECT_DIR$/data/stocks/KVAER.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/LINK.csv" afterPath="$PROJECT_DIR$/data/stocks/LINK.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/LSG.csv" afterPath="$PROJECT_DIR$/data/stocks/LSG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/MEDI.csv" afterPath="$PROJECT_DIR$/data/stocks/MEDI.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/MELG.csv" afterPath="$PROJECT_DIR$/data/stocks/MELG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/MHG.csv" afterPath="$PROJECT_DIR$/data/stocks/MHG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/MING.csv" afterPath="$PROJECT_DIR$/data/stocks/MING.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/MONO-ME.csv" afterPath="$PROJECT_DIR$/data/stocks/MONO-ME.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/MORG.csv" afterPath="$PROJECT_DIR$/data/stocks/MORG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/MPCC-ME.csv" afterPath="$PROJECT_DIR$/data/stocks/MPCC-ME.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/MSEIS.csv" afterPath="$PROJECT_DIR$/data/stocks/MSEIS.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/MULTI.csv" afterPath="$PROJECT_DIR$/data/stocks/MULTI.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/NANO.csv" afterPath="$PROJECT_DIR$/data/stocks/NANO.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/NAPA.csv" afterPath="$PROJECT_DIR$/data/stocks/NAPA.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/NAS.csv" afterPath="$PROJECT_DIR$/data/stocks/NAS.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/NATTO.csv" afterPath="$PROJECT_DIR$/data/stocks/NATTO.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/NAVA.csv" afterPath="$PROJECT_DIR$/data/stocks/NAVA.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/NEL.csv" afterPath="$PROJECT_DIR$/data/stocks/NEL.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/NEXT.csv" afterPath="$PROJECT_DIR$/data/stocks/NEXT.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/NGT.csv" afterPath="$PROJECT_DIR$/data/stocks/NGT.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/NHY.csv" afterPath="$PROJECT_DIR$/data/stocks/NHY.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/NOD.csv" afterPath="$PROJECT_DIR$/data/stocks/NOD.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/NOFI.csv" afterPath="$PROJECT_DIR$/data/stocks/NOFI.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/NOM.csv" afterPath="$PROJECT_DIR$/data/stocks/NOM.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/NONG.csv" afterPath="$PROJECT_DIR$/data/stocks/NONG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/NOR.csv" afterPath="$PROJECT_DIR$/data/stocks/NOR.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/NORTH.csv" afterPath="$PROJECT_DIR$/data/stocks/NORTH.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/NPRO.csv" afterPath="$PROJECT_DIR$/data/stocks/NPRO.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/NRC.csv" afterPath="$PROJECT_DIR$/data/stocks/NRC.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/NRS.csv" afterPath="$PROJECT_DIR$/data/stocks/NRS.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/NSG.csv" afterPath="$PROJECT_DIR$/data/stocks/NSG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/NTS.csv" afterPath="$PROJECT_DIR$/data/stocks/NTS.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/OBXEDNB.csv" afterPath="$PROJECT_DIR$/data/stocks/OBXEDNB.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/OBXEXACT.csv" afterPath="$PROJECT_DIR$/data/stocks/OBXEXACT.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/OBXEXDBEAR.csv" afterPath="$PROJECT_DIR$/data/stocks/OBXEXDBEAR.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/OBXEXDBULL.csv" afterPath="$PROJECT_DIR$/data/stocks/OBXEXDBULL.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/OCY.csv" afterPath="$PROJECT_DIR$/data/stocks/OCY.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ODF.csv" afterPath="$PROJECT_DIR$/data/stocks/ODF.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ODFB.csv" afterPath="$PROJECT_DIR$/data/stocks/ODFB.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ODL.csv" afterPath="$PROJECT_DIR$/data/stocks/ODL.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/OLT.csv" afterPath="$PROJECT_DIR$/data/stocks/OLT.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/OPERA.csv" afterPath="$PROJECT_DIR$/data/stocks/OPERA.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ORK.csv" afterPath="$PROJECT_DIR$/data/stocks/ORK.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/OTS.csv" afterPath="$PROJECT_DIR$/data/stocks/OTS.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/PARB.csv" afterPath="$PROJECT_DIR$/data/stocks/PARB.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/PCIB.csv" afterPath="$PROJECT_DIR$/data/stocks/PCIB.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/PDR.csv" afterPath="$PROJECT_DIR$/data/stocks/PDR.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/PEN.csv" afterPath="$PROJECT_DIR$/data/stocks/PEN.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/PGS.csv" afterPath="$PROJECT_DIR$/data/stocks/PGS.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/PHLY.csv" afterPath="$PROJECT_DIR$/data/stocks/PHLY.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/PHO.csv" afterPath="$PROJECT_DIR$/data/stocks/PHO.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/PLCS.csv" afterPath="$PROJECT_DIR$/data/stocks/PLCS.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/POL.csv" afterPath="$PROJECT_DIR$/data/stocks/POL.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/PPG-PREF.csv" afterPath="$PROJECT_DIR$/data/stocks/PPG-PREF.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/PROTCT.csv" afterPath="$PROJECT_DIR$/data/stocks/PROTCT.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/PRS.csv" afterPath="$PROJECT_DIR$/data/stocks/PRS.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/QEC.csv" afterPath="$PROJECT_DIR$/data/stocks/QEC.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/QFR.csv" afterPath="$PROJECT_DIR$/data/stocks/QFR.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/RAKP.csv" afterPath="$PROJECT_DIR$/data/stocks/RAKP.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/REACH.csv" afterPath="$PROJECT_DIR$/data/stocks/REACH.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/REC.csv" afterPath="$PROJECT_DIR$/data/stocks/REC.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/RING.csv" afterPath="$PROJECT_DIR$/data/stocks/RING.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SADG.csv" afterPath="$PROJECT_DIR$/data/stocks/SADG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SAFE.csv" afterPath="$PROJECT_DIR$/data/stocks/SAFE.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SAGA.csv" afterPath="$PROJECT_DIR$/data/stocks/SAGA.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SALM.csv" afterPath="$PROJECT_DIR$/data/stocks/SALM.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SAS-NOK.csv" afterPath="$PROJECT_DIR$/data/stocks/SAS-NOK.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SBO.csv" afterPath="$PROJECT_DIR$/data/stocks/SBO.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SBULK.csv" afterPath="$PROJECT_DIR$/data/stocks/SBULK.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SBVG.csv" afterPath="$PROJECT_DIR$/data/stocks/SBVG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SBX.csv" afterPath="$PROJECT_DIR$/data/stocks/SBX.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SCHA.csv" afterPath="$PROJECT_DIR$/data/stocks/SCHA.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SCHB.csv" afterPath="$PROJECT_DIR$/data/stocks/SCHB.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SDRL.csv" afterPath="$PROJECT_DIR$/data/stocks/SDRL.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SDSD.csv" afterPath="$PROJECT_DIR$/data/stocks/SDSD.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SEVAN.csv" afterPath="$PROJECT_DIR$/data/stocks/SEVAN.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SIAF-ME.csv" afterPath="$PROJECT_DIR$/data/stocks/SIAF-ME.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SIOFF.csv" afterPath="$PROJECT_DIR$/data/stocks/SIOFF.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SKBN.csv" afterPath="$PROJECT_DIR$/data/stocks/SKBN.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SKUE.csv" afterPath="$PROJECT_DIR$/data/stocks/SKUE.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SNI.csv" afterPath="$PROJECT_DIR$/data/stocks/SNI.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SOFF.csv" afterPath="$PROJECT_DIR$/data/stocks/SOFF.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SOLON.csv" afterPath="$PROJECT_DIR$/data/stocks/SOLON.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SONG.csv" afterPath="$PROJECT_DIR$/data/stocks/SONG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SOR.csv" afterPath="$PROJECT_DIR$/data/stocks/SOR.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SPOG.csv" afterPath="$PROJECT_DIR$/data/stocks/SPOG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SPOL.csv" afterPath="$PROJECT_DIR$/data/stocks/SPOL.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SPU.csv" afterPath="$PROJECT_DIR$/data/stocks/SPU.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SRBANK.csv" afterPath="$PROJECT_DIR$/data/stocks/SRBANK.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SSC.csv" afterPath="$PROJECT_DIR$/data/stocks/SSC.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SSHIP.csv" afterPath="$PROJECT_DIR$/data/stocks/SSHIP.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SSO.csv" afterPath="$PROJECT_DIR$/data/stocks/SSO.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/STB.csv" afterPath="$PROJECT_DIR$/data/stocks/STB.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/STL.csv" afterPath="$PROJECT_DIR$/data/stocks/STL.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/STORM.csv" afterPath="$PROJECT_DIR$/data/stocks/STORM.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/STRONG.csv" afterPath="$PROJECT_DIR$/data/stocks/STRONG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SUBC.csv" afterPath="$PROJECT_DIR$/data/stocks/SUBC.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/SVEG.csv" afterPath="$PROJECT_DIR$/data/stocks/SVEG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/TEAM.csv" afterPath="$PROJECT_DIR$/data/stocks/TEAM.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/TECH.csv" afterPath="$PROJECT_DIR$/data/stocks/TECH.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/TEL.csv" afterPath="$PROJECT_DIR$/data/stocks/TEL.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/TGS.csv" afterPath="$PROJECT_DIR$/data/stocks/TGS.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/THIN.csv" afterPath="$PROJECT_DIR$/data/stocks/THIN.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/TIL.csv" afterPath="$PROJECT_DIR$/data/stocks/TIL.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/TOM.csv" afterPath="$PROJECT_DIR$/data/stocks/TOM.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/TOTG.csv" afterPath="$PROJECT_DIR$/data/stocks/TOTG.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/TRE.csv" afterPath="$PROJECT_DIR$/data/stocks/TRE.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/TRVX.csv" afterPath="$PROJECT_DIR$/data/stocks/TRVX.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/TTS.csv" afterPath="$PROJECT_DIR$/data/stocks/TTS.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/UMS.csv" afterPath="$PROJECT_DIR$/data/stocks/UMS.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/VEI.csv" afterPath="$PROJECT_DIR$/data/stocks/VEI.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/VISTIN.csv" afterPath="$PROJECT_DIR$/data/stocks/VISTIN.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/VVL.csv" afterPath="$PROJECT_DIR$/data/stocks/VVL.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/WRE-ME.csv" afterPath="$PROJECT_DIR$/data/stocks/WRE-ME.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/WRL.csv" afterPath="$PROJECT_DIR$/data/stocks/WRL.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/WSTEP.csv" afterPath="$PROJECT_DIR$/data/stocks/WSTEP.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/WWI.csv" afterPath="$PROJECT_DIR$/data/stocks/WWI.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/WWIB.csv" afterPath="$PROJECT_DIR$/data/stocks/WWIB.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/WWL.csv" afterPath="$PROJECT_DIR$/data/stocks/WWL.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/XXL.csv" afterPath="$PROJECT_DIR$/data/stocks/XXL.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/YAR.csv" afterPath="$PROJECT_DIR$/data/stocks/YAR.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ZAL.csv" afterPath="$PROJECT_DIR$/data/stocks/ZAL.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.py" afterPath="$PROJECT_DIR$/db.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dividend.py" afterPath="$PROJECT_DIR$/dividend.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/value.py" afterPath="$PROJECT_DIR$/value.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +228,8 @@
       <file leaf-file-name="update.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/update.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="175" column="15" lean-forward="true" selection-start-line="175" selection-start-column="15" selection-end-line="175" selection-end-column="15" />
+            <state relative-caret-position="75">
+              <caret line="97" column="16" lean-forward="false" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="41" />
               <folding>
                 <element signature="e#782#791#0" expanded="true" />
               </folding>
@@ -30,8 +240,8 @@
       <file leaf-file-name="download.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="263">
+              <caret line="49" column="32" lean-forward="false" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
               <folding>
                 <element signature="e#463#472#0" expanded="true" />
               </folding>
@@ -42,7 +252,7 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
+            <state relative-caret-position="663">
               <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
               <folding />
             </state>
@@ -59,32 +269,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="115" column="17" lean-forward="true" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="221">
+              <caret line="130" column="23" lean-forward="true" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="23" />
+              <folding>
+                <element signature="e#753#762#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ABT.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/stocks/ABT.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="value.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="value.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/value.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="485">
+              <caret line="135" column="0" lean-forward="true" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+              <folding>
+                <element signature="e#480#495#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,6 +312,7 @@
       <find>relevant_dividend_dates</find>
       <find>319</find>
       <find>ZAL</find>
+      <find>pop</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,8 +321,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data/double_check_list.txt" />
-        <option value="$PROJECT_DIR$/data/div/APP.json" />
         <option value="$PROJECT_DIR$/data/div/ARCHER.json" />
         <option value="$PROJECT_DIR$/data/div/ATEA.json" />
         <option value="$PROJECT_DIR$/data/div/AURG.json" />
@@ -166,6 +369,8 @@
         <option value="$PROJECT_DIR$/dividend.py" />
         <option value="$PROJECT_DIR$/data/div/AASB-ME.json" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/value.py" />
+        <option value="$PROJECT_DIR$/data/db/value/ASC.json" />
         <option value="$PROJECT_DIR$/db.py" />
       </list>
     </option>
@@ -198,8 +403,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -278,9 +483,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19296375" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19509594" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -309,25 +513,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/div/MHG.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div/MING.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/div/MONO-ME.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -581,13 +771,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/json/stocks.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/div/AFG.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -602,16 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/download.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#463#472#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/div/AASB-ME.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -619,35 +792,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dividend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="47" column="31" lean-forward="true" selection-start-line="47" selection-start-column="31" selection-end-line="47" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/update.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="175" column="15" lean-forward="true" selection-start-line="175" selection-start-column="15" selection-end-line="175" selection-end-column="15" />
-          <folding>
-            <element signature="e#782#791#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
+        <state relative-caret-position="663">
           <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rating.py">
+    <entry file="file://$PROJECT_DIR$/data/stocks/ABT.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="207" column="25" lean-forward="false" selection-start-line="207" selection-start-column="25" selection-end-line="207" selection-end-column="25" />
+        <state relative-caret-position="0">
+          <caret line="0" column="54" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/db/value/AASB-ME.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -660,27 +823,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/value.py">
+    <entry file="file://$PROJECT_DIR$/data/json/stocks.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/stocks/ABT.csv">
+    <entry file="file://$PROJECT_DIR$/dividend.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="49" column="32" lean-forward="false" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+          <folding>
+            <element signature="e#463#472#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="97" column="16" lean-forward="false" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="41" />
+          <folding>
+            <element signature="e#782#791#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/db/value/ASC.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="0" column="3640" lean-forward="true" selection-start-line="0" selection-start-column="3640" selection-end-line="0" selection-end-column="3640" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="130" column="23" lean-forward="true" selection-start-line="130" selection-start-column="23" selection-end-line="130" selection-end-column="23" />
+          <folding>
+            <element signature="e#753#762#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="115" column="17" lean-forward="true" selection-start-line="115" selection-start-column="17" selection-end-line="115" selection-end-column="17" />
+          <caret line="207" column="25" lean-forward="false" selection-start-line="207" selection-start-column="25" selection-end-line="207" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/value.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="135" column="0" lean-forward="true" selection-start-line="135" selection-start-column="0" selection-end-line="135" selection-end-column="0" />
+          <folding>
+            <element signature="e#480#495#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

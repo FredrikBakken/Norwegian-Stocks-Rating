@@ -20,7 +20,7 @@ import datetime
 
 from urllib.request import urlopen
 
-from db import db_id_stock_source, db_number_of_stocks, db_insert_annual_stock_value
+from db import db_id_stock_source, db_number_of_stocks, db_insert_annual_stock_value, db_insert_stock_value
 
 
 def stocks_value():
@@ -61,8 +61,11 @@ def get_stock_values(ticker, source):
 
     print("Stocks data from " + ticker + " has been downloaded to: " + filename)
 
-    # Store into database
+    # Store annual stock values into database
     store_annual_stock_values(ticker, filename)
+
+    # Store all stock values into databases
+    store_stock_values(ticker, filename)
 
     return True
 
@@ -105,6 +108,31 @@ def store_annual_stock_values(ticker, filename):
 
     # Insert into the database
     db_insert_annual_stock_value(ticker, last_date, last_value)
+
+    return True
+
+
+def store_stock_values(ticker, filename):
+    response = True
+
+    with open(filename, 'r') as f:
+        first_line = f.readline()
+
+        # Read each line in the file
+        for line in f:
+            if response:
+                current_line = line.split(",")
+                date = current_line[0]
+                vopen = current_line[3]
+                vhigh = current_line[4]
+                vlow = current_line[5]
+                vclose = current_line[6]
+                volume = current_line[7]
+                value = current_line[8].rstrip()
+
+                response = db_insert_stock_value(ticker, date, vopen, vhigh, vlow, vclose, volume, value)
+            else:
+                return True
 
     return True
 
