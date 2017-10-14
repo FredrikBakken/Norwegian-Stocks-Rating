@@ -38,7 +38,7 @@ def store_dividends():
 
 def handle_dividend(ticker):
     # File name for each tickers
-    ticker_filename = 'data/div/' + ticker + '.json'
+    ticker_filename = 'data/div-split/' + ticker + '.json'
 
     # Open file
     with open(ticker_filename, 'r') as f:

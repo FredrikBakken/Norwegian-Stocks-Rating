@@ -21,7 +21,7 @@
 ### Ticker, Date, From, To
 ###
 ### Database | STOCK VALUES |
-### Date, Open, High, Low, Close, Volume, Value
+### (d) Date, (o) Open, (h) High, (l) Low, (c) Close, (vo) Volume, (va) Value
 ###
 ### @Author: Fredrik Bakken
 ### Email:   fredrik.bakken(at)gmail.com
@@ -133,8 +133,8 @@ def db_insert_stock_value(ticker, date, open, high, low, close, volume, value):
     exist = db_search_stock_value(db_stock_value, date)
     if not exist:
         before = len(db_stock_value)
-        db_stock_value.insert({'date': date, 'open': open, 'high': high, 'low': low,
-                               'close': close, 'volume': volume, 'value': value})
+        db_stock_value.insert({'d': date, 'o': open, 'h': high, 'l': low,
+                               'c': close, 'vo': volume, 'va': value})
         after = len(db_stock_value)
 
         response = insert_success(before, after)

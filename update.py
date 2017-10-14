@@ -80,7 +80,7 @@ def update():
         # Get ticker from db_stocks.json
         stock_id = (x + 1)
         ticker = db_id_stocks(stock_id)
-        filename = 'data/div/' + ticker + '.json'
+        filename = 'data/div-split/' + ticker + '.json'
 
         # Check if file exist
         exist = file_exist(filename)

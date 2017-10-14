@@ -16,6 +16,7 @@
 ### Last update: 22.09.2017
 '''
 
+import time
 import datetime
 
 from urllib.request import urlopen
@@ -116,7 +117,7 @@ def store_stock_values(ticker, filename):
     response = True
 
     with open(filename, 'r') as f:
-        first_line = f.readline()
+        f.readline()
 
         # Read each line in the file
         for line in f:
