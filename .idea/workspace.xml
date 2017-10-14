@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b116cd11-778e-4a3b-9ccc-0391f51e9488" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/json/stocks.json" afterPath="$PROJECT_DIR$/data/json/stocks.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ABT.csv" afterPath="$PROJECT_DIR$/data/stocks/ABT.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AEGA.csv" afterPath="$PROJECT_DIR$/data/stocks/AEGA.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AFG.csv" afterPath="$PROJECT_DIR$/data/stocks/AFG.csv" />
@@ -215,9 +214,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/YAR.csv" afterPath="$PROJECT_DIR$/data/stocks/YAR.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ZAL.csv" afterPath="$PROJECT_DIR$/data/stocks/ZAL.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.py" afterPath="$PROJECT_DIR$/db.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dividend.py" afterPath="$PROJECT_DIR$/dividend.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/update.py" afterPath="$PROJECT_DIR$/update.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/value.py" afterPath="$PROJECT_DIR$/value.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -272,11 +268,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="db.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="134" column="36" lean-forward="false" selection-start-line="134" selection-start-column="36" selection-end-line="134" selection-end-column="36" />
+            <state relative-caret-position="272">
+              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
               <folding>
                 <element signature="e#783#792#0" expanded="true" />
               </folding>
@@ -287,8 +283,8 @@
       <file leaf-file-name="value.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/value.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="562">
-              <caret line="139" column="0" lean-forward="true" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+            <state relative-caret-position="341">
+              <caret line="126" column="19" lean-forward="false" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
               <folding>
                 <element signature="e#480#491#0" expanded="true" />
               </folding>
@@ -296,11 +292,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dividend.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dividend.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dividend.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="76" column="54" lean-forward="false" selection-start-line="76" selection-start-column="54" selection-end-line="76" selection-end-column="54" />
+            <state relative-caret-position="247">
+              <caret line="63" column="62" lean-forward="true" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
               <folding>
                 <element signature="e#444#454#0" expanded="true" />
               </folding>
@@ -328,6 +324,7 @@
       <find>319</find>
       <find>ZAL</find>
       <find>pop</find>
+      <find>20171013</find>
       <find>data/div</find>
     </findStrings>
   </component>
@@ -386,8 +383,8 @@
         <option value="$PROJECT_DIR$/data/db/value/ASC.json" />
         <option value="$PROJECT_DIR$/update.py" />
         <option value="$PROJECT_DIR$/dividend.py" />
-        <option value="$PROJECT_DIR$/db.py" />
         <option value="$PROJECT_DIR$/value.py" />
+        <option value="$PROJECT_DIR$/db.py" />
       </list>
     </option>
   </component>
@@ -827,14 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/db/value/ASC.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="0" column="3640" lean-forward="true" selection-start-line="0" selection-start-column="3640" selection-end-line="0" selection-end-column="3640" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/db/db_dividend_history.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -879,20 +868,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db.py">
+    <entry file="file://$PROJECT_DIR$/data/db/value/ASC.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="134" column="36" lean-forward="false" selection-start-line="134" selection-start-column="36" selection-end-line="134" selection-end-column="36" />
-          <folding>
-            <element signature="e#783#792#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-36355">
+          <caret line="0" column="434922" lean-forward="false" selection-start-line="0" selection-start-column="434914" selection-end-line="0" selection-end-column="434922" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/value.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="562">
-          <caret line="139" column="0" lean-forward="true" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+        <state relative-caret-position="341">
+          <caret line="126" column="19" lean-forward="false" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
           <folding>
             <element signature="e#480#491#0" expanded="true" />
           </folding>
@@ -901,10 +888,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dividend.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="76" column="54" lean-forward="false" selection-start-line="76" selection-start-column="54" selection-end-line="76" selection-end-column="54" />
+        <state relative-caret-position="247">
+          <caret line="63" column="62" lean-forward="true" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
           <folding>
             <element signature="e#444#454#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#783#792#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -177,7 +177,7 @@ def db_search_annual_stock_value(ticker, date):
 
 # SEARCH DATABASE (DUPLICATE HANDLER): Stock Value
 def db_search_stock_value(db, date):
-    result = db.search(where('date') == date)
+    result = db.search(where('d') == date)
 
     return result
 
