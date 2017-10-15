@@ -29,12 +29,22 @@ from db import db_get_dividends, db_get_splits, db_get_stock_value, db_get_stock
 
 
 def calculate_profit(ticker, dividend, start, end, split_variation):
+    #### ISSUE FOUND!
+    ### Notes:
+    ### Split variation is not needed for stock values, since historical values takes such events into account for all
+    ### stock values. What has to be calculated is dividends before / after stock splits, in order to get the correct data.
+    ### When this is taken into account, the software should be able to give correct results.
+
+    div_test = dividend * split_variation
+
+    split_variation = 1
     start_split = (start / split_variation)
+
     if not start == 0:
-        profit = (end + dividend) / start_split
+        profit = (end + div_test) / start_split
     else:
         profit = 0
-    return [ticker, profit, start, start_split, end, dividend]
+    return [ticker, profit, start, start_split, end, div_test]
 
 
 def sort_on_date(data):

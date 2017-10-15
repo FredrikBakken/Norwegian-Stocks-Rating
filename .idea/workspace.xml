@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b116cd11-778e-4a3b-9ccc-0391f51e9488" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div-split/TOM.json" afterPath="$PROJECT_DIR$/data/div-split/TOM.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div-split/TTS.json" afterPath="$PROJECT_DIR$/data/div-split/TTS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div-split/VEI.json" afterPath="$PROJECT_DIR$/data/div-split/VEI.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div-split/VVL.json" afterPath="$PROJECT_DIR$/data/div-split/VVL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div-split/WEIFA.json" afterPath="$PROJECT_DIR$/data/div-split/WEIFA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div-split/WRL.json" afterPath="$PROJECT_DIR$/data/div-split/WRL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div-split/WWI.json" afterPath="$PROJECT_DIR$/data/div-split/WWI.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div-split/WWL.json" afterPath="$PROJECT_DIR$/data/div-split/WWL.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/db/db_dividend_history.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/db/db_split_history.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating.py" afterPath="$PROJECT_DIR$/rating.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rating.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="rating.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rating.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="308" column="0" lean-forward="true" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
               <folding>
                 <element signature="e#772#782#0" expanded="true" />
               </folding>
@@ -42,24 +38,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db.py">
+      <file leaf-file-name="ATEA.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/div-split/ATEA.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="709">
-              <caret line="230" column="33" lean-forward="false" selection-start-line="230" selection-start-column="33" selection-end-line="230" selection-end-column="33" />
-              <folding>
-                <element signature="e#842#851#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="408">
+              <caret line="24" column="28" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="24" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="THIN.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/div-split/THIN.json">
+      <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="454">
+              <caret line="200" column="31" lean-forward="false" selection-start-line="200" selection-start-column="31" selection-end-line="200" selection-end-column="31" />
+              <folding>
+                <element signature="e#842#851#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,7 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data/div/AWDR.json" />
         <option value="$PROJECT_DIR$/data/div/BSP-ME.json" />
         <option value="$PROJECT_DIR$/data/div/EAM.json" />
         <option value="$PROJECT_DIR$/data/div/EPIC-ME.json" />
@@ -149,15 +144,16 @@
         <option value="$PROJECT_DIR$/download.py" />
         <option value="$PROJECT_DIR$/value.py" />
         <option value="$PROJECT_DIR$/db.py" />
-        <option value="$PROJECT_DIR$/rating.py" />
         <option value="$PROJECT_DIR$/data/div-split/WWL.json" />
         <option value="$PROJECT_DIR$/data/div-split/WWI.json" />
-        <option value="$PROJECT_DIR$/data/div-split/WRL.json" />
-        <option value="$PROJECT_DIR$/data/div-split/WEIFA.json" />
         <option value="$PROJECT_DIR$/data/div-split/VVL.json" />
         <option value="$PROJECT_DIR$/data/div-split/VEI.json" />
         <option value="$PROJECT_DIR$/data/div-split/TTS.json" />
         <option value="$PROJECT_DIR$/data/div-split/TOM.json" />
+        <option value="$PROJECT_DIR$/data/div-split/THIN.json" />
+        <option value="$PROJECT_DIR$/rating.py" />
+        <option value="$PROJECT_DIR$/data/div-split/WRL.json" />
+        <option value="$PROJECT_DIR$/data/div-split/WEIFA.json" />
       </list>
     </option>
   </component>
@@ -277,7 +273,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37919825" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19722815" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.195629" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -305,35 +301,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/div/AUSS.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div/LSG.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div/APP.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -511,7 +478,7 @@
         <state relative-caret-position="335">
           <caret line="58" column="8" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
           <folding>
-            <element signature="e#480#489#0" expanded="true" />
+            <element signature="e#480#489#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -521,7 +488,7 @@
         <state relative-caret-position="-1314">
           <caret line="79" column="14" lean-forward="false" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
           <folding>
-            <element signature="e#782#791#0" expanded="true" />
+            <element signature="e#782#791#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -531,7 +498,7 @@
         <state relative-caret-position="-17">
           <caret line="35" column="4" lean-forward="false" selection-start-line="35" selection-start-column="4" selection-end-line="36" selection-end-column="30" />
           <folding>
-            <element signature="e#463#472#0" expanded="true" />
+            <element signature="e#463#472#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -541,16 +508,6 @@
         <state relative-caret-position="290">
           <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rating.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="308" column="0" lean-forward="true" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
-          <folding>
-            <element signature="e#772#782#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -578,14 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/div-split/WRL.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/div-split/WRE-ME.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -598,14 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div-split/WEIFA.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -690,13 +631,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db.py">
+    <entry file="file://$PROJECT_DIR$/data/db/value/WRL.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="230" column="33" lean-forward="false" selection-start-line="230" selection-start-column="33" selection-end-line="230" selection-end-column="33" />
-          <folding>
-            <element signature="e#842#851#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-16063">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/db/value/WEIFA.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="0" column="90985" lean-forward="false" selection-start-line="0" selection-start-column="90985" selection-end-line="0" selection-end-column="90985" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -705,6 +652,58 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/div-split/LSG.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="200" column="31" lean-forward="false" selection-start-line="200" selection-start-column="31" selection-end-line="200" selection-end-column="31" />
+          <folding>
+            <element signature="e#842#851#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/div-split/ATEA.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="28" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="24" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/div-split/WRL.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/div-split/WEIFA.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
+          <folding>
+            <element signature="e#772#782#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
