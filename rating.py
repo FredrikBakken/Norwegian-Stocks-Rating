@@ -42,7 +42,7 @@ def sort_on_date(data):
 
     # Loop through database data and append date to list
     for x in range(len(data)):
-        date_list.append(data[x]['date'])
+        date_list.append(data[x]['d'])
 
     # Sort the date_list from first date to last date
     sorted_list = sorted(date_list, key=lambda x: datetime.datetime.strptime(x, '%Y%m%d'))
@@ -89,17 +89,17 @@ def rating(arg):
 
                 if ((float(from_date_dividend) > 0) and (float(to_date_dividend) > 0)):
                     for x in range(len(dividend_data)):
-                        current_date = dividend_data[x]['date']
+                        current_date = dividend_data[x]['d']
 
                         if from_date_dividend <= current_date <= to_date_dividend:
-                            total_dividend = total_dividend + float(dividend_data[x]['dividend'])
+                            total_dividend = total_dividend + float(dividend_data[x]['di'])
 
             # Check for split data
             split_data = db_get_splits(ticker)
             split_variation = 1
             for x in range(len(split_data)):
-                split_from = split_data[x]['split_from']
-                split_to = split_data[x]['split_to']
+                split_from = split_data[x]['sf']
+                split_to = split_data[x]['st']
 
                 split_variation = ((split_variation * float(split_from)) / float(split_to))
 
@@ -146,17 +146,17 @@ def rating(arg):
             dividend_date_list = sort_on_date(dividend_data)
 
             for x in range(len(dividend_date_list)):
-                if dividend_data[x]['date'].startswith(arg[1]):
-                    total_dividend = total_dividend + float(dividend_data[x]['dividend'])
+                if dividend_data[x]['d'].startswith(arg[1]):
+                    total_dividend = total_dividend + float(dividend_data[x]['di'])
 
             # Check for split data
             split_data = db_get_splits(ticker)
             split_date_list = sort_on_date(split_data)
             split_variation = 1
             for x in range(len(split_date_list)):
-                if split_data[x]['date'].startswith(arg[1]):
-                    split_from = split_data[x]['split_from']
-                    split_to = split_data[x]['split_to']
+                if split_data[x]['d'].startswith(arg[1]):
+                    split_from = split_data[x]['sf']
+                    split_to = split_data[x]['st']
 
                     split_variation = ((split_variation * float(split_from)) / float(split_to))
 
@@ -213,8 +213,8 @@ def rating(arg):
 
             for x in range(len(years)):
                 for y in range(len(dividend_data)):
-                    if dividend_data[y]['date'].startswith(str(years[x])):
-                        total_dividend = total_dividend + float(dividend_data[y]['dividend'])
+                    if dividend_data[y]['d'].startswith(str(years[x])):
+                        total_dividend = total_dividend + float(dividend_data[y]['di'])
 
             # Check for split data
             split_data = db_get_splits(ticker)
@@ -222,9 +222,9 @@ def rating(arg):
             split_variation = 1
             for x in range(len(years)):
                 for y in range(len(split_data)):
-                    if split_data[y]['date'].startswith(str(years[x])):
-                        split_from = split_data[y]['split_from']
-                        split_to = split_data[y]['split_to']
+                    if split_data[y]['d'].startswith(str(years[x])):
+                        split_from = split_data[y]['sf']
+                        split_to = split_data[y]['st']
 
                         split_variation = ((split_variation * float(split_from)) / float(split_to))
 

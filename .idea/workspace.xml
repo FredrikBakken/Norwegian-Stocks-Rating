@@ -2,7 +2,241 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b116cd11-778e-4a3b-9ccc-0391f51e9488" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/db/db_annual_stock_value.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/db/db_dividend_history.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/db/db_stocks.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/AASB-ME.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/ABT.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/AEGA.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/AFG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/AFK.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/AKA.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/AKER.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/AKERBP.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/AKSO.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/AKVA.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/ALNG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/AMSC.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/APCL.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/APP.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/AQUA.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/ARCHER.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/ARCUS.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/ASC.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/ASETEK.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/ATEA.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/ATLA-NOK.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/ATLU-ME.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/AURG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/AUSS.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/AVANCE.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/AVM.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/AWDR.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/AXA.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/B2H.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/BAKKA.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/BDRILL-ME.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/BDRILL.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/BEL.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/BERGEN.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/BGBIO.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/BIOTEC.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/BMA.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/BON.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/BOR.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/BOUVET.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/BRG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/BSP-ME.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/BWLPG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/BWO.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/COV.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/CXENSE.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/DAT.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/DNB.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/DNO.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/DOF.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/EAM.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/EIOF.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/EKO.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/EMAS.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/EMGS.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/ENTRA.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/EPIC-ME.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/EPR.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/EVRY.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/FJORD.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/FLNG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/FOE.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/FRO.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/FUNCOM.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/GENT-ME.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/GIG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/GJF.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/GOD.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/GOGL.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/GRONG-ME.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/GSF.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/GYL.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/HAVI.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/HBC.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/HELG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/HEX.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/HIDDN.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/HLNG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/HSPG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/HUGO.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/HUNT.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/HYARD.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/IDEX.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/IMSK.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/INC.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/INDUCT-ME.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/INFRNT.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/INSR.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/IOX.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/ISSG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/ITE.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/ITX.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/JAEREN.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/JIN.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/KID.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/KIT.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/KOA.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/KOG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/KOLKAP-ME.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/KVAER.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/LINK.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/LSG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/MEDI.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/MELG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/MHG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/MING.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/MONO-ME.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/MORG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/MPCC-ME.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/MSEIS.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/MULTI.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/NANO.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/NAPA.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/NAS.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/NATTO.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/NAVA.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/NEL.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/NEXT.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/NGT.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/NHY.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/NOD.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/NOFI.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/NOM.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/NONG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/NOR.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/NORTH.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/NPRO.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/NRC.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/NRS.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/NSG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/NTS.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/OBXEDNB.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/OBXEXACT.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/OBXEXDBEAR.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/OBXEXDBULL.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/OCY.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/ODF.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/ODFB.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/ODL.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/OLT.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/OPERA.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/ORK.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/OTS.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/PARB.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/PCIB.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/PDR.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/PEN.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/PGS.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/PHLY.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/PHO.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/PLCS.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/POL.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/PPG-PREF.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/PROTCT.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/PRS.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/QEC.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/QFR.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/RAKP.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/REACH.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/REC.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/RENO.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/RING.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/RISH.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/ROM.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SADG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SAFE.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SAGA.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SALM.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SAS-NOK.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SBO.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SBULK.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SBVG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SBX.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SCHA.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SCHB.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SDRL.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SDSD.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SEVAN.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SEVDR.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SIAF-ME.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SIOFF.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SKBN.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SKUE.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SNI.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SNOR.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SOAG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SOFF.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SOLON.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SOLV.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SONG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SOR.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SPOG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SPOL.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SPU.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SRBANK.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SSC.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SSHIP.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SSO.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/STB.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/STL.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/STORM.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/STRONG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SUBC.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/SVEG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/TEAM.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/TECH.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/TEL.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/TGS.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/THIN.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/TIL.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/TOM.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/TOTG.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/TRE.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/TRVX.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/TTS.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/UMS.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/VEI.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/VISTIN.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/VVL.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/WEIFA.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/WILS.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/WRE-ME.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/WRL.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/WSTEP.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/WWI.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/WWIB.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/WWL.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/XXL.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/YAR.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/div/ZAL.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/db_split_history.json" afterPath="$PROJECT_DIR$/data/db/db_split_history.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ABT.csv" afterPath="$PROJECT_DIR$/data/stocks/ABT.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AEGA.csv" afterPath="$PROJECT_DIR$/data/stocks/AEGA.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/AFG.csv" afterPath="$PROJECT_DIR$/data/stocks/AFG.csv" />
@@ -214,6 +448,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/YAR.csv" afterPath="$PROJECT_DIR$/data/stocks/YAR.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/stocks/ZAL.csv" afterPath="$PROJECT_DIR$/data/stocks/ZAL.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.py" afterPath="$PROJECT_DIR$/db.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating.py" afterPath="$PROJECT_DIR$/rating.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -239,8 +474,8 @@
       <file leaf-file-name="download.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/download.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="49" column="32" lean-forward="false" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+            <state relative-caret-position="408">
+              <caret line="87" column="31" lean-forward="false" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
               <folding>
                 <element signature="e#463#472#0" expanded="true" />
               </folding>
@@ -251,8 +486,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+            <state relative-caret-position="264">
+              <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -261,9 +496,11 @@
       <file leaf-file-name="rating.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rating.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="207" column="25" lean-forward="false" selection-start-line="207" selection-start-column="25" selection-end-line="207" selection-end-column="25" />
-              <folding />
+            <state relative-caret-position="102">
+              <caret line="272" column="63" lean-forward="false" selection-start-line="272" selection-start-column="63" selection-end-line="272" selection-end-column="63" />
+              <folding>
+                <element signature="e#772#782#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -271,10 +508,10 @@
       <file leaf-file-name="db.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+            <state relative-caret-position="408">
+              <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
               <folding>
-                <element signature="e#783#792#0" expanded="true" />
+                <element signature="e#842#851#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -283,8 +520,8 @@
       <file leaf-file-name="value.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/value.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="126" column="19" lean-forward="false" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
+            <state relative-caret-position="187">
+              <caret line="110" column="32" lean-forward="false" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="32" />
               <folding>
                 <element signature="e#480#491#0" expanded="true" />
               </folding>
@@ -295,8 +532,8 @@
       <file leaf-file-name="dividend.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dividend.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="63" column="62" lean-forward="true" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
+            <state relative-caret-position="187">
+              <caret line="66" column="42" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="42" />
               <folding>
                 <element signature="e#444#454#0" expanded="true" />
               </folding>
@@ -319,13 +556,24 @@
       <find>USD</find>
       <find>GBP</find>
       <find>DKK</find>
-      <find>db_search_annual_stock_value</find>
       <find>relevant_dividend_dates</find>
       <find>319</find>
       <find>ZAL</find>
       <find>pop</find>
       <find>20171013</find>
       <find>data/div</find>
+      <find>db_search_stocks</find>
+      <find>db_stocks</find>
+      <find>2017</find>
+      <find>db_search_annual_stock_value</find>
+      <find>get_</find>
+      <find>db_number</find>
+      <find>db_annual_stock_value</find>
+      <find>db_insert_annual_stock_value</find>
+      <find>db_search_dividend_history</find>
+      <find>20170427</find>
+      <find>db_insert_dividend_history</find>
+      <find>db_get_dividends</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -377,14 +625,14 @@
         <option value="$PROJECT_DIR$/data/div/LSG.json" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/download.py" />
-        <option value="$PROJECT_DIR$/rating.py" />
         <option value="$PROJECT_DIR$/data/div/AASB-ME.json" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/data/db/value/ASC.json" />
         <option value="$PROJECT_DIR$/update.py" />
-        <option value="$PROJECT_DIR$/dividend.py" />
         <option value="$PROJECT_DIR$/value.py" />
+        <option value="$PROJECT_DIR$/dividend.py" />
         <option value="$PROJECT_DIR$/db.py" />
+        <option value="$PROJECT_DIR$/rating.py" />
       </list>
     </option>
   </component>
@@ -416,8 +664,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -436,10 +682,18 @@
               <item name="data" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="NorwegianStocksRating" type="b2602c69:ProjectViewProjectNode" />
+              <item name="NorwegianStocksRating" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="json" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -492,15 +746,16 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19509594" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30877572" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19722815" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33586133" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -509,7 +764,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -526,13 +780,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/div/MONO-ME.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/div/MORG.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -729,20 +976,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/db/db_annual_stock_value.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/db/db_split_history.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/div/LSG.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -800,7 +1033,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/db/value/AASB-ME.json">
+    <entry file="file://$PROJECT_DIR$/data/db/value/AASB-ME.json" />
+    <entry file="file://$PROJECT_DIR$/data/db/value/ASC.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36185">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/updates.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -811,7 +1053,15 @@
     <entry file="file://$PROJECT_DIR$/data/db/db_stocks.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="79" lean-forward="true" selection-start-line="0" selection-start-column="79" selection-end-line="0" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/db/db_annual_stock_value.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="0" column="151755" lean-forward="false" selection-start-line="0" selection-start-column="151751" selection-end-line="0" selection-end-column="151755" />
           <folding />
         </state>
       </provider>
@@ -820,40 +1070,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/db/db_dividend_history.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/download.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="49" column="32" lean-forward="false" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
-          <folding>
-            <element signature="e#463#472#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rating.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="207" column="25" lean-forward="false" selection-start-line="207" selection-start-column="25" selection-end-line="207" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -868,18 +1084,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/db/value/ASC.json">
+    <entry file="file://$PROJECT_DIR$/download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-36355">
-          <caret line="0" column="434922" lean-forward="false" selection-start-line="0" selection-start-column="434914" selection-end-line="0" selection-end-column="434922" />
+        <state relative-caret-position="408">
+          <caret line="87" column="31" lean-forward="false" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
+          <folding>
+            <element signature="e#463#472#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/value.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="126" column="19" lean-forward="false" selection-start-line="126" selection-start-column="19" selection-end-line="126" selection-end-column="19" />
+        <state relative-caret-position="187">
+          <caret line="110" column="32" lean-forward="false" selection-start-line="110" selection-start-column="4" selection-end-line="110" selection-end-column="32" />
           <folding>
             <element signature="e#480#491#0" expanded="true" />
           </folding>
@@ -888,20 +1114,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dividend.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="63" column="62" lean-forward="true" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
+        <state relative-caret-position="187">
+          <caret line="66" column="42" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="42" />
           <folding>
             <element signature="e#444#454#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/data/db/db_dividend_history.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="46" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/db/db_split_history.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rating.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="272" column="63" lean-forward="false" selection-start-line="272" selection-start-column="63" selection-end-line="272" selection-end-column="63" />
+          <folding>
+            <element signature="e#772#782#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="32" lean-forward="false" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        <state relative-caret-position="408">
+          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
           <folding>
-            <element signature="e#783#792#0" expanded="true" />
+            <element signature="e#842#851#0" expanded="true" />
           </folding>
         </state>
       </provider>

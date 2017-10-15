@@ -9,16 +9,16 @@
 ###
 ### DATABASES
 ### Database | STOCKS |
-### Ticker , Name , Source
+### (t) Ticker , (n) Name , (s) Source
 ###
 ### Database | ANNUAL STOCK VALUE |
-### Ticker , Date , Value
+### (t) Ticker , (d) Date , (v) Value
 ###
 ### Database | DIVIDEND HISTORY |
-### Ticker , Date , Dividend , Currency
+### (t) Ticker , (d) Date , (di) Dividend , (c) Currency
 ###
 ### Database | SPLIT HISTORY |
-### Ticker, Date, From, To
+### (t) Ticker, (d) Date, (sf) From, (st) To
 ###
 ### Database | STOCK VALUES |
 ### (d) Date, (o) Open, (h) High, (l) Low, (c) Close, (vo) Volume, (va) Value
@@ -55,7 +55,7 @@ def db_insert_stocks(ticker, name, source):
     exist = db_search_stocks(ticker)
     if not exist:
         before = len(db_stocks)
-        db_stocks.insert({'ticker': ticker, 'name': name, 'source': source})
+        db_stocks.insert({'t': ticker, 'n': name, 's': source})
         after = len(db_stocks)
 
         response = insert_success(before, after)
@@ -76,8 +76,8 @@ def db_insert_dividend_history(ticker, date, dividend, currency):
     exist = db_search_dividend_history(ticker, formatted_date, dividend)
     if not exist:
         before = len(db_dividend_history)
-        db_dividend_history.insert({'ticker': ticker, 'date': formatted_date,
-                                    'dividend': dividend, 'currency': currency})
+        db_dividend_history.insert({'t': ticker, 'd': formatted_date,
+                                    'di': dividend, 'c': currency})
         after = len(db_dividend_history)
 
         response = insert_success(before, after)
@@ -97,8 +97,8 @@ def db_insert_split_history(ticker, date, split_from, split_to):
     exist = db_search_split_history(ticker, formatted_date)
     if not exist:
         before = len(db_split_history)
-        db_split_history.insert({'ticker': ticker, 'date': formatted_date,
-                                 'split_from': split_from, 'split_to': split_to})
+        db_split_history.insert({'t': ticker, 'd': formatted_date,
+                                 'sf': split_from, 'st': split_to})
         after = len(db_split_history)
 
         response = insert_success(before, after)
@@ -112,7 +112,7 @@ def db_insert_annual_stock_value(ticker, date, value):
     exist = db_search_annual_stock_value(ticker, date)
     if not exist:
         before = len(db_annual_stock_value)
-        db_annual_stock_value.insert({'ticker': ticker, 'date': date, 'value': value})
+        db_annual_stock_value.insert({'t': ticker, 'd': date, 'v': value})
         after = len(db_annual_stock_value)
 
         response = insert_success(before, after)
@@ -145,23 +145,23 @@ def db_insert_stock_value(ticker, date, open, high, low, close, volume, value):
 
 #  SEARCH DATABASE (DUPLICATE HANDLER): Stocks
 def db_search_stocks(ticker):
-    result = db_stocks.search(where('ticker') == ticker)
+    result = db_stocks.search(where('t') == ticker)
     return result
 
 
 # SEARCH DATABASE (DUPLICATE HANDLER): Dividend History
 def db_search_dividend_history(ticker, date, dividend):
-    result = db_dividend_history.search((where('ticker') == ticker) &
-                                        (where('date') == date) &
-                                        (where('dividend') == dividend))
+    result = db_dividend_history.search((where('t') == ticker) &
+                                        (where('d') == date) &
+                                        (where('di') == dividend))
 
     print(result)
     return result
 
 
 def db_search_split_history(ticker, date):
-    result = db_split_history.search((where('ticker') == ticker) &
-                                     (where('date') == date))
+    result = db_split_history.search((where('t') == ticker) &
+                                     (where('d') == date))
 
     print(result)
     return result
@@ -169,8 +169,8 @@ def db_search_split_history(ticker, date):
 
 # SEARCH DATABASE (DUPLICATE HANDLER): Annual Stock Value
 def db_search_annual_stock_value(ticker, date):
-    result = db_annual_stock_value.search((where('ticker') == ticker) &
-                                          (where('date') == date))
+    result = db_annual_stock_value.search((where('t') == ticker) &
+                                          (where('d') == date))
 
     return result
 
@@ -191,31 +191,31 @@ def db_number_of_stocks():
 # GET STOCK: Based on ID
 def db_id_stocks(s_id):
     element = db_stocks.get(eid=s_id)
-    ticker = element.get('ticker')
+    ticker = element.get('t')
     return ticker
 
 
 # GET STOCK AND SOURCE: Based on ID
 def db_id_stock_source(s_id):
     element = db_stocks.get(eid=s_id)
-    ticker = element.get('ticker')
-    source = element.get('source')
+    ticker = element.get('t')
+    source = element.get('s')
     return ticker, source
 
 
 # SEARCH DATABASE: Get dividends
 def db_get_dividends(ticker):
-    result = db_dividend_history.search(where('ticker') == ticker)
+    result = db_dividend_history.search(where('t') == ticker)
     return result
 
 
 # SEARCH DATABASE: Get splits
 def db_get_splits(ticker):
-    result = db_split_history.search(where('ticker') == ticker)
+    result = db_split_history.search(where('t') == ticker)
     return result
 
 
 # SEARCH DATABASE: Get annual stock value
 def db_get_annual_stock_value(ticker):
-    result = db_annual_stock_value.search(where('ticker') == ticker)
+    result = db_annual_stock_value.search(where('t') == ticker)
     return result
