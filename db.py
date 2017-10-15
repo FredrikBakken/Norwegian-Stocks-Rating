@@ -215,7 +215,17 @@ def db_get_splits(ticker):
     return result
 
 
-# SEARCH DATABASE: Get annual stock value
+# SEARCH DATABASE: Get annual stock values
 def db_get_annual_stock_value(ticker):
     result = db_annual_stock_value.search(where('t') == ticker)
+    return result
+
+
+# SEARCH DATABASE: Get stock values
+def db_get_stock_value(ticker):
+    filename = ticker + '.json'
+    directory = 'data/db/value/'
+    db_stock_value = TinyDB(directory + filename)
+
+    result = db_stock_value.all()
     return result

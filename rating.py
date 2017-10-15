@@ -25,7 +25,7 @@ import datetime
 
 from prettytable import PrettyTable
 
-from db import db_get_dividends, db_get_splits, db_number_of_stocks, db_id_stocks
+from db import db_get_dividends, db_get_splits, db_get_stock_value, db_number_of_stocks, db_id_stocks
 
 
 def calculate_profit(ticker, dividend, start, end, split_variation):
@@ -103,23 +103,28 @@ def rating(arg):
 
                 split_variation = ((split_variation * float(split_from)) / float(split_to))
 
-            # Find start and end stock value
-            filename = 'data/stocks/' + ticker + '.csv'
-            with open(filename, 'r') as f:
-                next(f)
-                second_line = f.readline()
-                if (not second_line == ''):
-                    second_line_split = second_line.split(',')
-                    end_stock_value = float(second_line_split[6])
-                    try:
-                        last_line = list(f)[-1]
-                        last_line_split = last_line.split(',')
-                        start_stock_value = float(last_line_split[6])
-                    except IndexError:
-                        start_stock_value = end_stock_value
-                else:
-                    start_stock_value = 0
-                    end_stock_value = 0
+            # db_get_stock_value
+            stock_data = db_get_stock_value(ticker)
+            stock_date_list = sort_on_date(stock_data)
+
+            if len(stock_date_list) > 0:
+                from_date_stock = stock_date_list[0]
+                to_date_stock = stock_date_list[-1]
+
+                if ((float(from_date_stock) > 0) and (float(to_date_stock) > 0)):
+                    val_f = False
+                    val_t = False
+
+                    for x in range(len(stock_data)):
+                        if stock_data[x]['d'] == from_date_stock:
+                            start_stock_value = float(stock_data[x]['c'])
+                            val_f = True
+                        elif stock_data[x]['d'] == to_date_stock:
+                            end_stock_value = float(stock_data[x]['c'])
+                            val_t = True
+
+                        if val_f and val_t:
+                            break
 
             profit = calculate_profit(ticker, total_dividend, start_stock_value, end_stock_value, split_variation)
             profit_list.append(profit)
@@ -162,7 +167,7 @@ def rating(arg):
 
 
             # Find start and end stock value
-            filename = 'data/stocks/' + ticker + '.csv'
+            filename = 'data/tmp-values/' + ticker + '.csv'
             found_date = False
             with open(filename, 'r') as f:
                 previous_line = []
@@ -229,7 +234,7 @@ def rating(arg):
                         split_variation = ((split_variation * float(split_from)) / float(split_to))
 
             # Find start and end stock value
-            filename = 'data/stocks/' + ticker + '.csv'
+            filename = 'data/tmp-values/' + ticker + '.csv'
             found_date = False
             before_start_year = year_from - 1
             with open(filename, 'r') as f:

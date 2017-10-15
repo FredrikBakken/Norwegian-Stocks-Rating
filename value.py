@@ -16,6 +16,8 @@
 ### Last update: 22.09.2017
 '''
 
+import os
+import shutil
 import datetime
 
 from urllib.request import urlopen
@@ -52,8 +54,14 @@ def get_stock_values(ticker, source):
     else:
         print("Incorrect")
 
+    # File and directory
+    file = ticker + '.csv'
+    directory = 'data/tmp-values/'
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
     # Download the latest historical ticker data
-    filename = 'data/stocks/' + ticker + '.csv'
+    filename = directory + file
     response = urlopen(url)
     html = response.read()
     with open(filename, 'wb') as f:
@@ -64,6 +72,10 @@ def get_stock_values(ticker, source):
 
     # Store all stock values into databases
     store_stock_values(ticker, filename)
+
+    # Remove temporary historical stock value data
+    if os.path.exists(directory):
+        shutil.rmtree(directory)
 
     return True
 
