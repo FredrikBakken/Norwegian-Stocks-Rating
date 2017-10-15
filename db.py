@@ -32,6 +32,7 @@
 '''
 
 import os
+import sys
 
 from tinydb import TinyDB, where
 
@@ -228,4 +229,44 @@ def db_get_stock_value(ticker):
     db_stock_value = TinyDB(directory + filename)
 
     result = db_stock_value.all()
+    return result
+
+
+def db_get_stock_value_year(ticker, date):
+    string_date = str(date)
+    filename = ticker + '.json'
+    directory = 'data/db/value/'
+    db_stock_value = TinyDB(directory + filename)
+
+    # Year
+    if len(string_date) == 4:
+        result = db_stock_value.search( (where('d')[0] == string_date[0]) &
+                                        (where('d')[1] == string_date[1]) &
+                                        (where('d')[2] == string_date[2]) &
+                                        (where('d')[3] == string_date[3]))
+    # Year + Month
+    elif len(string_date) == 6:
+        result = db_stock_value.search((where('d')[0] == string_date[0]) &
+                                       (where('d')[1] == string_date[1]) &
+                                       (where('d')[2] == string_date[2]) &
+                                       (where('d')[3] == string_date[3]) &
+                                       (where('d')[4] == string_date[4]) &
+                                       (where('d')[5] == string_date[5]))
+    # Year + Month + Date
+    elif len(string_date) == 8:
+        result = db_stock_value.search((where('d')[0] == string_date[0]) &
+                                       (where('d')[1] == string_date[1]) &
+                                       (where('d')[2] == string_date[2]) &
+                                       (where('d')[3] == string_date[3]) &
+                                       (where('d')[4] == string_date[4]) &
+                                       (where('d')[5] == string_date[5]) &
+                                       (where('d')[6] == string_date[6]) &
+                                       (where('d')[7] == string_date[7]))
+
+    else:
+        sys.exit("Invalid date format. Correct alternatives:\n"
+                 " 1. YEAR: 2015\n"
+                 " 2. YEAR+MONTH: 201506\n"
+                 " 3. YEAR+MONTH+DATE: 20150601")
+
     return result
