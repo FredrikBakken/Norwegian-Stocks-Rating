@@ -13,27 +13,32 @@
 ### Website: https://www.fredrikbakken.no/
 ### Github:  https://github.com/FredrikBakken
 ###
-### Last update: 12.10.2017
+### Last update: 15.10.2017
 '''
 
 import os
 import csv
+import shutil
 import requests
 import contextlib
 
 from db import db_insert_stocks, db_search_stocks
 
 
-json_storage = 'data/json/stocks.json'
+filename = 'data/tmp-stocks/stocks.json'
 
 
 def download_stocks():
     # Oslo Bors, Oslo Axess, and Merkur stock urls
     markets = [['OSE', 'Oslo Børs'], ['OAX', 'Oslo Axess'], ['MERK', 'Merkur']]
 
+    directory = 'data/tmp-stocks/'
+    if not os.path.exists(directory):
+        os.makedirs(directory)
+
     # Delete old stocks overview file
     with contextlib.suppress(FileNotFoundError):
-        os.remove(json_storage)
+        os.remove(filename)
 
     # Open session
     with requests.Session() as s:
@@ -51,7 +56,7 @@ def download_stocks():
             stocklist.pop(0)
 
             # Write stocks to file
-            with open(json_storage, 'a', newline='') as file:
+            with open(filename, 'a', newline='') as file:
                 writer = csv.writer(file, delimiter=',')
 
                 for row in stocklist:
@@ -59,17 +64,21 @@ def download_stocks():
                     row.append(market_name)
                     writer.writerow(row)
 
-    print("Updated stocks data has been downloaded to 'data/json/stocks.json'.")
+    print('Updated stocks data has been downloaded to: ' + filename)
 
     # Store stocks into the database
     store_stocks()
+
+    # Remove temporary stock data storage
+    if os.path.exists(directory):
+        shutil.rmtree(directory)
 
     return True
 
 
 def store_stocks():
     # Open temporary stocks file
-    with open(json_storage, 'rU') as file:
+    with open(filename, 'rU') as file:
 
         # Read line for line the temporary stocks file
         for line in file:
@@ -85,7 +94,7 @@ def store_stocks():
                 if not exist_ticker:
                     db_insert_stocks(ticker, name, source)
 
-    print("New stocks has been stored in the database: 'data/db/db_stocks.json'.")
+    print('New stocks has been stored in the database.')
 
     return True
 

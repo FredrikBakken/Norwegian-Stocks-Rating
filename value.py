@@ -16,7 +16,6 @@
 ### Last update: 22.09.2017
 '''
 
-import time
 import datetime
 
 from urllib.request import urlopen
@@ -59,8 +58,6 @@ def get_stock_values(ticker, source):
     html = response.read()
     with open(filename, 'wb') as f:
         f.write(html)
-
-    print("Stocks data from " + ticker + " has been downloaded to: " + filename)
 
     # Store annual stock values into database
     store_annual_stock_values(ticker, filename)
@@ -118,6 +115,8 @@ def store_stock_values(ticker, filename):
 
     with open(filename, 'r') as f:
         f.readline()
+
+        print("Stocks data from " + ticker + " is being stored into: " + filename)
 
         # Read each line in the file
         for line in f:
