@@ -28,23 +28,12 @@ from prettytable import PrettyTable
 from db import db_get_dividends, db_get_splits, db_get_stock_value, db_get_stock_value_year, db_number_of_stocks, db_id_stocks
 
 
-def calculate_profit(ticker, dividend, start, end, split_variation):
-    #### ISSUE FOUND!
-    ### Notes:
-    ### Split variation is not needed for stock values, since historical values takes such events into account for all
-    ### stock values. What has to be calculated is dividends before / after stock splits, in order to get the correct data.
-    ### When this is taken into account, the software should be able to give correct results.
-
-    div_test = dividend * split_variation
-
-    split_variation = 1
-    start_split = (start / split_variation)
-
+def calculate_profit(ticker, dividend, start, end):
     if not start == 0:
-        profit = (end + div_test) / start_split
+        profit = (end + dividend) / start
     else:
         profit = 0
-    return [ticker, profit, start, start_split, end, div_test]
+    return [ticker, profit, start, end, dividend]
 
 
 def sort_on_date(data):
@@ -104,15 +93,6 @@ def rating(arg):
                         if from_date_dividend <= current_date <= to_date_dividend:
                             total_dividend = total_dividend + float(dividend_data[x]['di'])
 
-            # Check for split data
-            split_data = db_get_splits(ticker)
-            split_variation = 1
-            for x in range(len(split_data)):
-                split_from = split_data[x]['sf']
-                split_to = split_data[x]['st']
-
-                split_variation = ((split_variation * float(split_from)) / float(split_to))
-
             # Find start and end stock value
             stock_data = db_get_stock_value(ticker)
             stock_date_list = sort_on_date(stock_data)
@@ -136,7 +116,7 @@ def rating(arg):
                         if val_f and val_t:
                             break
 
-            profit = calculate_profit(ticker, total_dividend, start_stock_value, end_stock_value, split_variation)
+            profit = calculate_profit(ticker, total_dividend, start_stock_value, end_stock_value)
             profit_list.append(profit)
 
     # If rate select is specific year
@@ -163,17 +143,6 @@ def rating(arg):
                 if dividend_data[x]['d'].startswith(arg[1]):
                     total_dividend = total_dividend + float(dividend_data[x]['di'])
 
-            # Check for split data
-            split_data = db_get_splits(ticker)
-            split_date_list = sort_on_date(split_data)
-            split_variation = 1
-            for x in range(len(split_date_list)):
-                if split_data[x]['d'].startswith(arg[1]):
-                    split_from = split_data[x]['sf']
-                    split_to = split_data[x]['st']
-
-                    split_variation = ((split_variation * float(split_from)) / float(split_to))
-
             # Find start and end stock value
             stock_data = db_get_stock_value_year(ticker, arg[1])
             stock_date_list = sort_on_date(stock_data)
@@ -197,7 +166,7 @@ def rating(arg):
                         if val_f and val_t:
                             break
 
-            profit = calculate_profit(ticker, total_dividend, start_stock_value, end_stock_value, split_variation)
+            profit = calculate_profit(ticker, total_dividend, start_stock_value, end_stock_value)
             profit_list.append(profit)
 
     # If rate selected is from/to specific years
@@ -234,18 +203,6 @@ def rating(arg):
                     if dividend_data[y]['d'].startswith(str(years[x])):
                         total_dividend = total_dividend + float(dividend_data[y]['di'])
 
-            # Check for split data
-            split_data = db_get_splits(ticker)
-
-            split_variation = 1
-            for x in range(len(years)):
-                for y in range(len(split_data)):
-                    if split_data[y]['d'].startswith(str(years[x])):
-                        split_from = split_data[y]['sf']
-                        split_to = split_data[y]['st']
-
-                        split_variation = ((split_variation * float(split_from)) / float(split_to))
-
             # Find start and end stock value
             start_stock_data = db_get_stock_value_year(ticker, arg[1])
             start_stock_date_list = sort_on_date(start_stock_data)
@@ -272,7 +229,7 @@ def rating(arg):
                             end_stock_value = float(end_stock_data[x]['c'])
                             break
 
-            profit = calculate_profit(ticker, total_dividend, start_stock_value, end_stock_value, split_variation)
+            profit = calculate_profit(ticker, total_dividend, start_stock_value, end_stock_value)
             profit_list.append(profit)
 
     # Else: Invalid arguments
@@ -282,7 +239,7 @@ def rating(arg):
 
     sorted_list = sorted(profit_list, key=lambda x: x[1])
 
-    t = PrettyTable(['Loss / Profit', 'Ticker', 'Total (%)', 'From stock value (orginal)', 'From stock value (split)', 'To stock value', 'Total dividend'])
+    t = PrettyTable(['Loss / Profit', 'Ticker', 'Total (%)', 'From stock value', 'To stock value', 'Total dividend (After split rates)'])
 
     for x in range(len(sorted_list)):
         if sorted_list[x][1] > 1:
@@ -292,17 +249,14 @@ def rating(arg):
         else:
             loss_profit = 'NO CHANGE'
 
-        if sorted_list[x][5] == 0:
+        if sorted_list[x][4] == 0:
             dividend = '-'
         else:
-            dividend = '{0:.2f}'.format(sorted_list[x][5]) + ' kr'
+            dividend = '{0:.2f}'.format(sorted_list[x][4]) + ' kr'
 
         if not (sorted_list[x][1] == 0 and sorted_list[x][2] == 0 and sorted_list[x][4] == 0):
             t.add_row([loss_profit, sorted_list[x][0], '{:.3%}'.format(sorted_list[x][1]),
-                       '{0:.2f}'.format(sorted_list[x][2]), '{0:.2f}'.format(sorted_list[x][3]),
-                       '{0:.2f}'.format(sorted_list[x][4]), dividend])
-
-    # return [ticker, profit, start, start_split, end, dividend]
+                       '{0:.2f}'.format(sorted_list[x][2]), '{0:.2f}'.format(sorted_list[x][3]), dividend])
 
     print(t)
 
