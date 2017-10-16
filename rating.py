@@ -260,8 +260,6 @@ def rating(arg):
 
     print(t)
 
-    print('\nWARNING! DO NOT TRUST THE CURRENT RESULTS!!!\n')
-
     print('\nSoftware has been developed by Fredrik Bakken.\n'
           '\nEmail:   fredrik.bakken(at)gmail.com'
           '\nWebsite: https://www.fredrikbakken.no/'
