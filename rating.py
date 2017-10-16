@@ -17,7 +17,7 @@
 ### Website: https://www.fredrikbakken.no/
 ### Github:  https://github.com/FredrikBakken
 ###
-### Last update: 12.10.2017
+### Last update: 16.10.2017
 '''
 
 import sys
