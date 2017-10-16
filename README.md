@@ -2,13 +2,9 @@
 
 [![Python Powered](https://www.python.org/static/community_logos/python-powered-w-100x40.png)](https://www.python.org)
 
-## DO NOT USE THIS SOFTWARE, IT HAS KNOWN ISSUES
-
-**The current state of the software has issues, since it does take into account stock splitting/fusion. The results presented by the result is there completely wrong. DO NOT trust the results from the software.**
-
 Norwegian Stocks Rating is a program for collecting all stocks on the norwegian stock market and then rating the stocks based upon historical values and dividends.
 
-**Latest 'data' content updated:** 12.10.2017.
+**Latest 'data' content updated:** 16.10.2017.
 
 ## Installation
 
