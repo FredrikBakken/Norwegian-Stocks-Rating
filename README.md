@@ -37,6 +37,8 @@ py -3.5 rating.py 2015          |    (Prints sorted rating from 2015)
 py -3.5 rating.py 2010 2014     |    (Prints sorted rating from 2010 to 2014)
 ```
 
+![All rating example (16.10.2017)](https://github.com/FredrikBakken/Norwegian-Stocks-Rating/blob/master/images/run_results_example.png)
+
 ## Missing Features
 
  - Handle the stock value data in a more efficient way with tinyDB
