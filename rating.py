@@ -17,7 +17,7 @@
 ### Website: https://www.fredrikbakken.no/
 ### Github:  https://github.com/FredrikBakken
 ###
-### Last update: 16.10.2017
+### Last update: 17.10.2017
 '''
 
 import sys
@@ -25,15 +25,23 @@ import datetime
 
 from prettytable import PrettyTable
 
-from db import db_get_dividends, db_get_splits, db_get_stock_value, db_get_stock_value_year, db_number_of_stocks, db_id_stocks
+from db import db_get_dividends, db_get_stock_value, db_get_stock_value_year, db_number_of_stocks, db_id_stocks
 
 
 def calculate_profit(ticker, dividend, start, end):
     if not start == 0:
         profit = (end + dividend) / start
+        dividend_percent_start = dividend / start
     else:
         profit = 0
-    return [ticker, profit, start, end, dividend]
+        dividend_percent_start = 0
+
+    if not end == 0:
+        dividend_percent_end = dividend / end
+    else:
+        dividend_percent_end = 0
+
+    return [ticker, profit, start, end, dividend, dividend_percent_start, dividend_percent_end]
 
 
 def sort_on_date(data):
@@ -189,7 +197,6 @@ def rating(arg):
         for x in range(number_of_stocks):
             # Variables
             total_dividend = 0
-            #end_stock_value = 0
 
             # Find ticker
             stock_id = (x + 1)
@@ -216,8 +223,6 @@ def rating(arg):
                 to_date_stock = end_stock_date_list[-1]
 
                 if ((float(from_date_stock) > 0) and (float(to_date_stock) > 0)):
-                    val_f = False
-                    val_t = False
 
                     for x in range(len(start_stock_data)):
                         if start_stock_data[x]['d'] == from_date_stock:
@@ -239,7 +244,7 @@ def rating(arg):
 
     sorted_list = sorted(profit_list, key=lambda x: x[1])
 
-    t = PrettyTable(['Loss / Profit', 'Ticker', 'Total (%)', 'From stock value', 'To stock value', 'Total dividend (After split rates)'])
+    t = PrettyTable(['Loss / Profit', 'Ticker', 'Total (%)', 'From stock value', 'To stock value', 'Total dividend (After split rates)', '(%) Dividend (start)', '(%) Dividend (end)'])
 
     for x in range(len(sorted_list)):
         if sorted_list[x][1] > 1:
@@ -256,7 +261,8 @@ def rating(arg):
 
         if not (sorted_list[x][1] == 0 and sorted_list[x][2] == 0 and sorted_list[x][4] == 0):
             t.add_row([loss_profit, sorted_list[x][0], '{:.3%}'.format(sorted_list[x][1]),
-                       '{0:.2f}'.format(sorted_list[x][2]), '{0:.2f}'.format(sorted_list[x][3]), dividend])
+                       '{0:.2f}'.format(sorted_list[x][2]), '{0:.2f}'.format(sorted_list[x][3]), dividend,
+                       '{:.3%}'.format(sorted_list[x][5]), '{:.3%}'.format(sorted_list[x][6])])
 
     print(t)
 
