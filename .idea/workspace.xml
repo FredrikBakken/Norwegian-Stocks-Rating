@@ -4,6 +4,7 @@
     <list default="true" id="b116cd11-778e-4a3b-9ccc-0391f51e9488" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AASB-ME.json" afterPath="$PROJECT_DIR$/data/db/value/AASB-ME.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ABT.json" afterPath="$PROJECT_DIR$/data/db/value/ABT.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AEGA.json" afterPath="$PROJECT_DIR$/data/db/value/AEGA.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AFG.json" afterPath="$PROJECT_DIR$/data/db/value/AFG.json" />
@@ -24,7 +25,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ASETEK.json" afterPath="$PROJECT_DIR$/data/db/value/ASETEK.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ATEA.json" afterPath="$PROJECT_DIR$/data/db/value/ATEA.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ATLA-NOK.json" afterPath="$PROJECT_DIR$/data/db/value/ATLA-NOK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ATLU-ME.json" afterPath="$PROJECT_DIR$/data/db/value/ATLU-ME.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AURG.json" afterPath="$PROJECT_DIR$/data/db/value/AURG.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AUSS.json" afterPath="$PROJECT_DIR$/data/db/value/AUSS.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AVANCE.json" afterPath="$PROJECT_DIR$/data/db/value/AVANCE.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AVM.json" afterPath="$PROJECT_DIR$/data/db/value/AVM.json" />
@@ -40,8 +41,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/BIOTEC.json" afterPath="$PROJECT_DIR$/data/db/value/BIOTEC.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/BMA.json" afterPath="$PROJECT_DIR$/data/db/value/BMA.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/BON.json" afterPath="$PROJECT_DIR$/data/db/value/BON.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/BOR.json" afterPath="$PROJECT_DIR$/data/db/value/BOR.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/BOUVET.json" afterPath="$PROJECT_DIR$/data/db/value/BOUVET.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/BRG.json" afterPath="$PROJECT_DIR$/data/db/value/BRG.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/BSP-ME.json" afterPath="$PROJECT_DIR$/data/db/value/BSP-ME.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/BWLPG.json" afterPath="$PROJECT_DIR$/data/db/value/BWLPG.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/BWO.json" afterPath="$PROJECT_DIR$/data/db/value/BWO.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/COV.json" afterPath="$PROJECT_DIR$/data/db/value/COV.json" />
@@ -68,6 +71,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/GOGL.json" afterPath="$PROJECT_DIR$/data/db/value/GOGL.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/GRONG-ME.json" afterPath="$PROJECT_DIR$/data/db/value/GRONG-ME.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/GSF.json" afterPath="$PROJECT_DIR$/data/db/value/GSF.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/GYL.json" afterPath="$PROJECT_DIR$/data/db/value/GYL.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/HAVI.json" afterPath="$PROJECT_DIR$/data/db/value/HAVI.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/HBC.json" afterPath="$PROJECT_DIR$/data/db/value/HBC.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/HELG.json" afterPath="$PROJECT_DIR$/data/db/value/HELG.json" />
@@ -84,13 +88,16 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/INFRNT.json" afterPath="$PROJECT_DIR$/data/db/value/INFRNT.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/INSR.json" afterPath="$PROJECT_DIR$/data/db/value/INSR.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/IOX.json" afterPath="$PROJECT_DIR$/data/db/value/IOX.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ISSG.json" afterPath="$PROJECT_DIR$/data/db/value/ISSG.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ITE.json" afterPath="$PROJECT_DIR$/data/db/value/ITE.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ITX.json" afterPath="$PROJECT_DIR$/data/db/value/ITX.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/JAEREN.json" afterPath="$PROJECT_DIR$/data/db/value/JAEREN.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/JIN.json" afterPath="$PROJECT_DIR$/data/db/value/JIN.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/KID.json" afterPath="$PROJECT_DIR$/data/db/value/KID.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/KIT.json" afterPath="$PROJECT_DIR$/data/db/value/KIT.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/KOA.json" afterPath="$PROJECT_DIR$/data/db/value/KOA.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/KOG.json" afterPath="$PROJECT_DIR$/data/db/value/KOG.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/KOLKAP-ME.json" afterPath="$PROJECT_DIR$/data/db/value/KOLKAP-ME.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/KVAER.json" afterPath="$PROJECT_DIR$/data/db/value/KVAER.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/LINK.json" afterPath="$PROJECT_DIR$/data/db/value/LINK.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/LSG.json" afterPath="$PROJECT_DIR$/data/db/value/LSG.json" />
@@ -100,6 +107,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/MING.json" afterPath="$PROJECT_DIR$/data/db/value/MING.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/MONO-ME.json" afterPath="$PROJECT_DIR$/data/db/value/MONO-ME.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/MORG.json" afterPath="$PROJECT_DIR$/data/db/value/MORG.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/MPCC-ME.json" afterPath="$PROJECT_DIR$/data/db/value/MPCC-ME.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/MSEIS.json" afterPath="$PROJECT_DIR$/data/db/value/MSEIS.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/MULTI.json" afterPath="$PROJECT_DIR$/data/db/value/MULTI.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/NANO.json" afterPath="$PROJECT_DIR$/data/db/value/NANO.json" />
@@ -142,6 +150,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/PHLY.json" afterPath="$PROJECT_DIR$/data/db/value/PHLY.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/PHO.json" afterPath="$PROJECT_DIR$/data/db/value/PHO.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/PLCS.json" afterPath="$PROJECT_DIR$/data/db/value/PLCS.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/POL.json" afterPath="$PROJECT_DIR$/data/db/value/POL.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/PPG-PREF.json" afterPath="$PROJECT_DIR$/data/db/value/PPG-PREF.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/PROTCT.json" afterPath="$PROJECT_DIR$/data/db/value/PROTCT.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/PRS.json" afterPath="$PROJECT_DIR$/data/db/value/PRS.json" />
@@ -151,6 +160,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/REACH.json" afterPath="$PROJECT_DIR$/data/db/value/REACH.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/REC.json" afterPath="$PROJECT_DIR$/data/db/value/REC.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/RING.json" afterPath="$PROJECT_DIR$/data/db/value/RING.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/RISH.json" afterPath="$PROJECT_DIR$/data/db/value/RISH.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ROM.json" afterPath="$PROJECT_DIR$/data/db/value/ROM.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SADG.json" afterPath="$PROJECT_DIR$/data/db/value/SADG.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SAFE.json" afterPath="$PROJECT_DIR$/data/db/value/SAFE.json" />
@@ -175,6 +185,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SOAG.json" afterPath="$PROJECT_DIR$/data/db/value/SOAG.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SOFF.json" afterPath="$PROJECT_DIR$/data/db/value/SOFF.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SOLON.json" afterPath="$PROJECT_DIR$/data/db/value/SOLON.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SOLV.json" afterPath="$PROJECT_DIR$/data/db/value/SOLV.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SONG.json" afterPath="$PROJECT_DIR$/data/db/value/SONG.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SOR.json" afterPath="$PROJECT_DIR$/data/db/value/SOR.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SPOG.json" afterPath="$PROJECT_DIR$/data/db/value/SPOG.json" />
@@ -186,9 +197,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SSO.json" afterPath="$PROJECT_DIR$/data/db/value/SSO.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/STB.json" afterPath="$PROJECT_DIR$/data/db/value/STB.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/STL.json" afterPath="$PROJECT_DIR$/data/db/value/STL.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/STORM.json" afterPath="$PROJECT_DIR$/data/db/value/STORM.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/STRONG.json" afterPath="$PROJECT_DIR$/data/db/value/STRONG.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SUBC.json" afterPath="$PROJECT_DIR$/data/db/value/SUBC.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SVEG.json" afterPath="$PROJECT_DIR$/data/db/value/SVEG.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/TEAM.json" afterPath="$PROJECT_DIR$/data/db/value/TEAM.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/TECH.json" afterPath="$PROJECT_DIR$/data/db/value/TECH.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/TEL.json" afterPath="$PROJECT_DIR$/data/db/value/TEL.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/TGS.json" afterPath="$PROJECT_DIR$/data/db/value/TGS.json" />
@@ -202,6 +215,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/UMS.json" afterPath="$PROJECT_DIR$/data/db/value/UMS.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/VEI.json" afterPath="$PROJECT_DIR$/data/db/value/VEI.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/VISTIN.json" afterPath="$PROJECT_DIR$/data/db/value/VISTIN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/VVL.json" afterPath="$PROJECT_DIR$/data/db/value/VVL.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/WRE-ME.json" afterPath="$PROJECT_DIR$/data/db/value/WRE-ME.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/WRL.json" afterPath="$PROJECT_DIR$/data/db/value/WRL.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/WSTEP.json" afterPath="$PROJECT_DIR$/data/db/value/WSTEP.json" />
@@ -441,7 +455,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div-split/XXL.json" afterPath="$PROJECT_DIR$/data/div-split/XXL.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div-split/YAR.json" afterPath="$PROJECT_DIR$/data/div-split/YAR.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div-split/ZAL.json" afterPath="$PROJECT_DIR$/data/div-split/ZAL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating.py" afterPath="$PROJECT_DIR$/rating.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -455,7 +468,7 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
+            <state relative-caret-position="0">
               <caret line="39" column="10" lean-forward="false" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
               <folding />
             </state>
@@ -465,8 +478,8 @@
       <file leaf-file-name="rating.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rating.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="652">
+              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding>
                 <element signature="e#772#782#0" expanded="true" />
               </folding>
@@ -474,11 +487,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="dividend.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dividend.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            <state relative-caret-position="635">
+              <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="download.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/download.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/update.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="141" column="36" lean-forward="false" selection-start-line="141" selection-start-column="36" selection-end-line="141" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -487,8 +520,8 @@
       <file leaf-file-name="value.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/value.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            <state relative-caret-position="374">
+              <caret line="64" column="15" lean-forward="true" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -549,10 +582,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data/div-split/LSG.json" />
-        <option value="$PROJECT_DIR$/data/div-split/MHG.json" />
-        <option value="$PROJECT_DIR$/data/div-split/MING.json" />
-        <option value="$PROJECT_DIR$/data/div-split/MULTI.json" />
         <option value="$PROJECT_DIR$/data/div-split/NAPA.json" />
         <option value="$PROJECT_DIR$/data/div-split/NATTO.json" />
         <option value="$PROJECT_DIR$/data/div-split/NEL.json" />
@@ -575,7 +604,6 @@
         <option value="$PROJECT_DIR$/data/div-split/PLCS.json" />
         <option value="$PROJECT_DIR$/data/div-split/PRS.json" />
         <option value="$PROJECT_DIR$/data/div-split/REACH.json" />
-        <option value="$PROJECT_DIR$/data/div-split/REC.json" />
         <option value="$PROJECT_DIR$/data/div-split/RENO.json" />
         <option value="$PROJECT_DIR$/data/div-split/RISH.json" />
         <option value="$PROJECT_DIR$/data/div-split/ROM.json" />
@@ -599,7 +627,12 @@
         <option value="$PROJECT_DIR$/data/div-split/AFG.json" />
         <option value="$PROJECT_DIR$/data/db/value/NOD.json" />
         <option value="$PROJECT_DIR$/rating.py" />
+        <option value="$PROJECT_DIR$/data/div-split/ATEA.json" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/data/div-split/MELG.json" />
+        <option value="$PROJECT_DIR$/data/div-split/NPRO.json" />
+        <option value="$PROJECT_DIR$/data/div-split/REC.json" />
+        <option value="$PROJECT_DIR$/data/updates.txt" />
       </list>
     </option>
   </component>
@@ -632,6 +665,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -644,17 +678,10 @@
               <item name="NorwegianStocksRating" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="NorwegianStocksRating" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NorwegianStocksRating" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -707,17 +734,17 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20202559" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20628998" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4452871" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20151679" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -741,62 +768,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/div-split/SNOR.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div-split/SOLON.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div-split/SOLV.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div-split/SONG.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div-split/SOR.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div-split/SPOG.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div-split/SPOL.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div-split/SPU.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/div-split/SRBANK.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1059,14 +1030,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/value.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/db/value/SBX.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -1088,20 +1051,92 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/div-split/ATEA.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/div-split/MELG.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/div-split/NPRO.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/div-split/REC.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/updates.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rating.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+        <state relative-caret-position="652">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding>
             <element signature="e#772#782#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/value.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        <state relative-caret-position="374">
+          <caret line="64" column="15" lean-forward="true" selection-start-line="64" selection-start-column="15" selection-end-line="64" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dividend.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="79" column="0" lean-forward="true" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="141" column="36" lean-forward="false" selection-start-line="141" selection-start-column="36" selection-end-line="141" selection-end-column="36" />
           <folding />
         </state>
       </provider>
