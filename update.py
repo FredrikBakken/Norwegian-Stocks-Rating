@@ -100,6 +100,7 @@ def update():
             from_date = first_line_split[1]
             previous_entries = first_line_split[2]
 
+
         # Get number of pages to check and number of new entries
         url = get_url(1, ticker, from_date, today)
         web_content = urlopen(url).read()
@@ -118,6 +119,13 @@ def update():
             first_line_split = first_line.split(",")
             new_line = (first_line_split[0] + ',' + today + ',' + str(total_entries) + '\n')
             lines = f.readlines()
+
+        check_date = ''
+        # Get latest dividend entry date
+        if (len(lines) > 0):
+            date_line = lines[0]
+            date_line_split = date_line.split(",")
+            check_date = date_line_split[0]
 
         date_list = []
 
@@ -138,9 +146,10 @@ def update():
                 cols = [ele.text.strip() for ele in cols]
 
                 date = cols[0].split(' ')[0]
-                element = date + ',type,amount\n'
-                if not element in date_list:
-                    date_list.append(element)
+                if not date == check_date:
+                    element = date + ',type,amount\n'
+                    if not element in date_list:
+                        date_list.append(element)
 
         # Overwrite file with new data
         with open(filename, 'w') as f:
