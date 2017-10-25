@@ -25,14 +25,18 @@ import contextlib
 from db import db_insert_stocks, db_search_stocks
 
 
-filename = 'data/tmp-stocks/stocks.json'
+#filename = 'data/tmp-stocks/stocks.json'
 
 
 def download_stocks():
+    directory = 'data/tmp-stocks/'
+    file = 'stocks.json'
+    filename = directory + file
+
     # Oslo Bors, Oslo Axess, and Merkur stock urls
     markets = [['OSE', 'Oslo Børs'], ['OAX', 'Oslo Axess'], ['MERK', 'Merkur']]
 
-    directory = 'data/tmp-stocks/'
+
     if not os.path.exists(directory):
         os.makedirs(directory)
 
@@ -67,7 +71,7 @@ def download_stocks():
     print('Updated stocks data has been downloaded to: ' + filename)
 
     # Store stocks into the database
-    store_stocks()
+    store_stocks(filename)
 
     # Remove temporary stock data storage
     if os.path.exists(directory):
@@ -76,7 +80,7 @@ def download_stocks():
     return True
 
 
-def store_stocks():
+def store_stocks(filename):
     # Open temporary stocks file
     with open(filename, 'rU') as file:
 

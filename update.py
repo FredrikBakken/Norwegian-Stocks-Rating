@@ -84,6 +84,7 @@ def update():
 
         # Check if file exist
         exist = file_exist(filename)
+        first_line_split = ''
 
         # Find which date last updates are from
         if not exist:
@@ -92,10 +93,11 @@ def update():
 
             # Write first line to files
             with open(filename, 'a') as f:
-                f.write(ticker + ',' + today + ',0\n')
+                f.write(ticker + ',' + today + ',' + str(previous_entries) + '\n')
         else:
             with open(filename, 'r') as f:
                 first_line = f.readline()
+                lines = f.readlines()
             first_line_split = first_line.split(",")
             from_date = first_line_split[1]
             previous_entries = first_line_split[2]
@@ -112,13 +114,7 @@ def update():
 
         # Update entries
         total_entries = (int(previous_entries) + int(entries))
-
-        # Get first line for update entries
-        with open(filename, 'r') as f:
-            first_line = next(f)
-            first_line_split = first_line.split(",")
-            new_line = (first_line_split[0] + ',' + today + ',' + str(total_entries) + '\n')
-            lines = f.readlines()
+        new_line = (first_line_split[0] + ',' + today + ',' + str(total_entries) + '\n')
 
         check_date = ''
         # Get latest dividend entry date

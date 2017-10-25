@@ -17,9 +17,6 @@
 ### Database | DIVIDEND HISTORY |
 ### (t) Ticker , (d) Date , (di) Dividend , (c) Currency
 ###
-### Database | SPLIT HISTORY |
-### (t) Ticker, (d) Date, (sf) From, (st) To
-###
 ### Database | STOCK VALUES |
 ### (d) Date, (o) Open, (h) High, (l) Low, (c) Close, (vo) Volume, (va) Value
 ###

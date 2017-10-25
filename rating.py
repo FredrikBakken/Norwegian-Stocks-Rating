@@ -72,7 +72,7 @@ def rating(arg):
 
     # If rate select is 'all' historical stocks
     if ((number_of_arguments == 1 and arg[1] == 'all') or (arg == 'all')):
-        print("Rate stocks for all historical values...")
+        print("\nRate stocks for all historical values...")
 
         # Get the number of stocks in the database
         number_of_stocks = db_number_of_stocks()
@@ -129,7 +129,7 @@ def rating(arg):
 
     # If rate select is specific year
     elif number_of_arguments == 1 and bool_year:
-        print("Rate stocks for year " + arg[1] + '...')
+        print("\nRate stocks for year " + arg[1] + '...')
 
         # Get the number of stocks in the database
         number_of_stocks = db_number_of_stocks()
@@ -179,7 +179,7 @@ def rating(arg):
 
     # If rate selected is from/to specific years
     elif number_of_arguments == 2:
-        print("Rating stocks from " + arg[1] + " to " + arg[2] + '...')
+        print("\nRating stocks from " + arg[1] + " to " + arg[2] + '...')
 
         # Add relevant years to a list
         year_from = int(arg[1])
