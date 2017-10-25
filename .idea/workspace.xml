@@ -3,222 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b116cd11-778e-4a3b-9ccc-0391f51e9488" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ABT.json" afterPath="$PROJECT_DIR$/data/db/value/ABT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AEGA.json" afterPath="$PROJECT_DIR$/data/db/value/AEGA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AFG.json" afterPath="$PROJECT_DIR$/data/db/value/AFG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AFK.json" afterPath="$PROJECT_DIR$/data/db/value/AFK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AKA.json" afterPath="$PROJECT_DIR$/data/db/value/AKA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AKER.json" afterPath="$PROJECT_DIR$/data/db/value/AKER.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AKERBP.json" afterPath="$PROJECT_DIR$/data/db/value/AKERBP.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AKSO.json" afterPath="$PROJECT_DIR$/data/db/value/AKSO.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AKVA.json" afterPath="$PROJECT_DIR$/data/db/value/AKVA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ALNG.json" afterPath="$PROJECT_DIR$/data/db/value/ALNG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AMSC.json" afterPath="$PROJECT_DIR$/data/db/value/AMSC.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/APCL.json" afterPath="$PROJECT_DIR$/data/db/value/APCL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/APP.json" afterPath="$PROJECT_DIR$/data/db/value/APP.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AQUA.json" afterPath="$PROJECT_DIR$/data/db/value/AQUA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ARCHER.json" afterPath="$PROJECT_DIR$/data/db/value/ARCHER.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ARCUS.json" afterPath="$PROJECT_DIR$/data/db/value/ARCUS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ASC.json" afterPath="$PROJECT_DIR$/data/db/value/ASC.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ASETEK.json" afterPath="$PROJECT_DIR$/data/db/value/ASETEK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ATEA.json" afterPath="$PROJECT_DIR$/data/db/value/ATEA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ATLA-NOK.json" afterPath="$PROJECT_DIR$/data/db/value/ATLA-NOK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AURG.json" afterPath="$PROJECT_DIR$/data/db/value/AURG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AUSS.json" afterPath="$PROJECT_DIR$/data/db/value/AUSS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AVANCE.json" afterPath="$PROJECT_DIR$/data/db/value/AVANCE.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AVM.json" afterPath="$PROJECT_DIR$/data/db/value/AVM.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AWDR.json" afterPath="$PROJECT_DIR$/data/db/value/AWDR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AXA.json" afterPath="$PROJECT_DIR$/data/db/value/AXA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/B2H.json" afterPath="$PROJECT_DIR$/data/db/value/B2H.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/BAKKA.json" afterPath="$PROJECT_DIR$/data/db/value/BAKKA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/BDRILL.json" afterPath="$PROJECT_DIR$/data/db/value/BDRILL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/BEL.json" afterPath="$PROJECT_DIR$/data/db/value/BEL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/BERGEN.json" afterPath="$PROJECT_DIR$/data/db/value/BERGEN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/BGBIO.json" afterPath="$PROJECT_DIR$/data/db/value/BGBIO.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/BIOTEC.json" afterPath="$PROJECT_DIR$/data/db/value/BIOTEC.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/BMA.json" afterPath="$PROJECT_DIR$/data/db/value/BMA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/BON.json" afterPath="$PROJECT_DIR$/data/db/value/BON.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/BOUVET.json" afterPath="$PROJECT_DIR$/data/db/value/BOUVET.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/BRG.json" afterPath="$PROJECT_DIR$/data/db/value/BRG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/BWLPG.json" afterPath="$PROJECT_DIR$/data/db/value/BWLPG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/BWO.json" afterPath="$PROJECT_DIR$/data/db/value/BWO.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/COV.json" afterPath="$PROJECT_DIR$/data/db/value/COV.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/CXENSE.json" afterPath="$PROJECT_DIR$/data/db/value/CXENSE.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/DAT.json" afterPath="$PROJECT_DIR$/data/db/value/DAT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/DNB.json" afterPath="$PROJECT_DIR$/data/db/value/DNB.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/DNO.json" afterPath="$PROJECT_DIR$/data/db/value/DNO.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/DOF.json" afterPath="$PROJECT_DIR$/data/db/value/DOF.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/EAM.json" afterPath="$PROJECT_DIR$/data/db/value/EAM.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/EIOF.json" afterPath="$PROJECT_DIR$/data/db/value/EIOF.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/EKO.json" afterPath="$PROJECT_DIR$/data/db/value/EKO.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/EMGS.json" afterPath="$PROJECT_DIR$/data/db/value/EMGS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ENTRA.json" afterPath="$PROJECT_DIR$/data/db/value/ENTRA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/EPIC-ME.json" afterPath="$PROJECT_DIR$/data/db/value/EPIC-ME.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/EPR.json" afterPath="$PROJECT_DIR$/data/db/value/EPR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/EVRY.json" afterPath="$PROJECT_DIR$/data/db/value/EVRY.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/FJORD.json" afterPath="$PROJECT_DIR$/data/db/value/FJORD.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/FLNG.json" afterPath="$PROJECT_DIR$/data/db/value/FLNG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/FOE.json" afterPath="$PROJECT_DIR$/data/db/value/FOE.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/FRO.json" afterPath="$PROJECT_DIR$/data/db/value/FRO.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/FUNCOM.json" afterPath="$PROJECT_DIR$/data/db/value/FUNCOM.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/GENT-ME.json" afterPath="$PROJECT_DIR$/data/db/value/GENT-ME.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/GIG.json" afterPath="$PROJECT_DIR$/data/db/value/GIG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/GJF.json" afterPath="$PROJECT_DIR$/data/db/value/GJF.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/GOD.json" afterPath="$PROJECT_DIR$/data/db/value/GOD.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/GOGL.json" afterPath="$PROJECT_DIR$/data/db/value/GOGL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/GSF.json" afterPath="$PROJECT_DIR$/data/db/value/GSF.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/HAVI.json" afterPath="$PROJECT_DIR$/data/db/value/HAVI.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/HBC.json" afterPath="$PROJECT_DIR$/data/db/value/HBC.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/HELG.json" afterPath="$PROJECT_DIR$/data/db/value/HELG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/HEX.json" afterPath="$PROJECT_DIR$/data/db/value/HEX.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/HIDDN.json" afterPath="$PROJECT_DIR$/data/db/value/HIDDN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/HLNG.json" afterPath="$PROJECT_DIR$/data/db/value/HLNG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/HUGO.json" afterPath="$PROJECT_DIR$/data/db/value/HUGO.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/HUNT.json" afterPath="$PROJECT_DIR$/data/db/value/HUNT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/HYARD.json" afterPath="$PROJECT_DIR$/data/db/value/HYARD.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/IDEX.json" afterPath="$PROJECT_DIR$/data/db/value/IDEX.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/IMSK.json" afterPath="$PROJECT_DIR$/data/db/value/IMSK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/INC.json" afterPath="$PROJECT_DIR$/data/db/value/INC.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/INDUCT-ME.json" afterPath="$PROJECT_DIR$/data/db/value/INDUCT-ME.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/INFRNT.json" afterPath="$PROJECT_DIR$/data/db/value/INFRNT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/INSR.json" afterPath="$PROJECT_DIR$/data/db/value/INSR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/IOX.json" afterPath="$PROJECT_DIR$/data/db/value/IOX.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ISSG.json" afterPath="$PROJECT_DIR$/data/db/value/ISSG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ITE.json" afterPath="$PROJECT_DIR$/data/db/value/ITE.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ITX.json" afterPath="$PROJECT_DIR$/data/db/value/ITX.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/JAEREN.json" afterPath="$PROJECT_DIR$/data/db/value/JAEREN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/JIN.json" afterPath="$PROJECT_DIR$/data/db/value/JIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/KID.json" afterPath="$PROJECT_DIR$/data/db/value/KID.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/KIT.json" afterPath="$PROJECT_DIR$/data/db/value/KIT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/KOA.json" afterPath="$PROJECT_DIR$/data/db/value/KOA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/KOG.json" afterPath="$PROJECT_DIR$/data/db/value/KOG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/KOLKAP-ME.json" afterPath="$PROJECT_DIR$/data/db/value/KOLKAP-ME.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/KVAER.json" afterPath="$PROJECT_DIR$/data/db/value/KVAER.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/LINK.json" afterPath="$PROJECT_DIR$/data/db/value/LINK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/LSG.json" afterPath="$PROJECT_DIR$/data/db/value/LSG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/MEDI.json" afterPath="$PROJECT_DIR$/data/db/value/MEDI.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/MELG.json" afterPath="$PROJECT_DIR$/data/db/value/MELG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/MHG.json" afterPath="$PROJECT_DIR$/data/db/value/MHG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/MING.json" afterPath="$PROJECT_DIR$/data/db/value/MING.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/MONO-ME.json" afterPath="$PROJECT_DIR$/data/db/value/MONO-ME.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/MORG.json" afterPath="$PROJECT_DIR$/data/db/value/MORG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/MSEIS.json" afterPath="$PROJECT_DIR$/data/db/value/MSEIS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/MULTI.json" afterPath="$PROJECT_DIR$/data/db/value/MULTI.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/NANO.json" afterPath="$PROJECT_DIR$/data/db/value/NANO.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/NAPA.json" afterPath="$PROJECT_DIR$/data/db/value/NAPA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/NAS.json" afterPath="$PROJECT_DIR$/data/db/value/NAS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/NAVA.json" afterPath="$PROJECT_DIR$/data/db/value/NAVA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/NEL.json" afterPath="$PROJECT_DIR$/data/db/value/NEL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/NEXT.json" afterPath="$PROJECT_DIR$/data/db/value/NEXT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/NGT.json" afterPath="$PROJECT_DIR$/data/db/value/NGT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/NHY.json" afterPath="$PROJECT_DIR$/data/db/value/NHY.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/NOD.json" afterPath="$PROJECT_DIR$/data/db/value/NOD.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/NOFI.json" afterPath="$PROJECT_DIR$/data/db/value/NOFI.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/NOM.json" afterPath="$PROJECT_DIR$/data/db/value/NOM.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/NONG.json" afterPath="$PROJECT_DIR$/data/db/value/NONG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/NOR.json" afterPath="$PROJECT_DIR$/data/db/value/NOR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/NORTH.json" afterPath="$PROJECT_DIR$/data/db/value/NORTH.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/NPRO.json" afterPath="$PROJECT_DIR$/data/db/value/NPRO.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/NRC.json" afterPath="$PROJECT_DIR$/data/db/value/NRC.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/NRS.json" afterPath="$PROJECT_DIR$/data/db/value/NRS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/NSG.json" afterPath="$PROJECT_DIR$/data/db/value/NSG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/NTS.json" afterPath="$PROJECT_DIR$/data/db/value/NTS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/OBXEDNB.json" afterPath="$PROJECT_DIR$/data/db/value/OBXEDNB.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/OBXEXACT.json" afterPath="$PROJECT_DIR$/data/db/value/OBXEXACT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/OBXEXDBEAR.json" afterPath="$PROJECT_DIR$/data/db/value/OBXEXDBEAR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/OBXEXDBULL.json" afterPath="$PROJECT_DIR$/data/db/value/OBXEXDBULL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/OCY.json" afterPath="$PROJECT_DIR$/data/db/value/OCY.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ODF.json" afterPath="$PROJECT_DIR$/data/db/value/ODF.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ODFB.json" afterPath="$PROJECT_DIR$/data/db/value/ODFB.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ODL.json" afterPath="$PROJECT_DIR$/data/db/value/ODL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/OLT.json" afterPath="$PROJECT_DIR$/data/db/value/OLT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/OPERA.json" afterPath="$PROJECT_DIR$/data/db/value/OPERA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ORK.json" afterPath="$PROJECT_DIR$/data/db/value/ORK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/OTS.json" afterPath="$PROJECT_DIR$/data/db/value/OTS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/PARB.json" afterPath="$PROJECT_DIR$/data/db/value/PARB.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/PCIB.json" afterPath="$PROJECT_DIR$/data/db/value/PCIB.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/PDR.json" afterPath="$PROJECT_DIR$/data/db/value/PDR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/PEN.json" afterPath="$PROJECT_DIR$/data/db/value/PEN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/PGS.json" afterPath="$PROJECT_DIR$/data/db/value/PGS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/PHLY.json" afterPath="$PROJECT_DIR$/data/db/value/PHLY.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/PHO.json" afterPath="$PROJECT_DIR$/data/db/value/PHO.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/PLCS.json" afterPath="$PROJECT_DIR$/data/db/value/PLCS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/POL.json" afterPath="$PROJECT_DIR$/data/db/value/POL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/PPG-PREF.json" afterPath="$PROJECT_DIR$/data/db/value/PPG-PREF.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/PROTCT.json" afterPath="$PROJECT_DIR$/data/db/value/PROTCT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/PRS.json" afterPath="$PROJECT_DIR$/data/db/value/PRS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/QEC.json" afterPath="$PROJECT_DIR$/data/db/value/QEC.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/QFR.json" afterPath="$PROJECT_DIR$/data/db/value/QFR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/RAKP.json" afterPath="$PROJECT_DIR$/data/db/value/RAKP.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/REACH.json" afterPath="$PROJECT_DIR$/data/db/value/REACH.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/REC.json" afterPath="$PROJECT_DIR$/data/db/value/REC.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/RING.json" afterPath="$PROJECT_DIR$/data/db/value/RING.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/RISH.json" afterPath="$PROJECT_DIR$/data/db/value/RISH.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SADG.json" afterPath="$PROJECT_DIR$/data/db/value/SADG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SAFE.json" afterPath="$PROJECT_DIR$/data/db/value/SAFE.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SAGA.json" afterPath="$PROJECT_DIR$/data/db/value/SAGA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SALM.json" afterPath="$PROJECT_DIR$/data/db/value/SALM.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SAS-NOK.json" afterPath="$PROJECT_DIR$/data/db/value/SAS-NOK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SBO.json" afterPath="$PROJECT_DIR$/data/db/value/SBO.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SBULK.json" afterPath="$PROJECT_DIR$/data/db/value/SBULK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SBVG.json" afterPath="$PROJECT_DIR$/data/db/value/SBVG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SBX.json" afterPath="$PROJECT_DIR$/data/db/value/SBX.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SCHA.json" afterPath="$PROJECT_DIR$/data/db/value/SCHA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SCHB.json" afterPath="$PROJECT_DIR$/data/db/value/SCHB.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SDRL.json" afterPath="$PROJECT_DIR$/data/db/value/SDRL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SDSD.json" afterPath="$PROJECT_DIR$/data/db/value/SDSD.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SEVAN.json" afterPath="$PROJECT_DIR$/data/db/value/SEVAN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SIAF-ME.json" afterPath="$PROJECT_DIR$/data/db/value/SIAF-ME.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SIOFF.json" afterPath="$PROJECT_DIR$/data/db/value/SIOFF.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SKBN.json" afterPath="$PROJECT_DIR$/data/db/value/SKBN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SKUE.json" afterPath="$PROJECT_DIR$/data/db/value/SKUE.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SNI.json" afterPath="$PROJECT_DIR$/data/db/value/SNI.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SNOR.json" afterPath="$PROJECT_DIR$/data/db/value/SNOR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SOAG.json" afterPath="$PROJECT_DIR$/data/db/value/SOAG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SOFF.json" afterPath="$PROJECT_DIR$/data/db/value/SOFF.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SOLON.json" afterPath="$PROJECT_DIR$/data/db/value/SOLON.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SONG.json" afterPath="$PROJECT_DIR$/data/db/value/SONG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SOR.json" afterPath="$PROJECT_DIR$/data/db/value/SOR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SPOG.json" afterPath="$PROJECT_DIR$/data/db/value/SPOG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SPOL.json" afterPath="$PROJECT_DIR$/data/db/value/SPOL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SPU.json" afterPath="$PROJECT_DIR$/data/db/value/SPU.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SRBANK.json" afterPath="$PROJECT_DIR$/data/db/value/SRBANK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SSC.json" afterPath="$PROJECT_DIR$/data/db/value/SSC.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SSHIP.json" afterPath="$PROJECT_DIR$/data/db/value/SSHIP.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SSO.json" afterPath="$PROJECT_DIR$/data/db/value/SSO.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/STB.json" afterPath="$PROJECT_DIR$/data/db/value/STB.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/STL.json" afterPath="$PROJECT_DIR$/data/db/value/STL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/STORM.json" afterPath="$PROJECT_DIR$/data/db/value/STORM.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/STRONG.json" afterPath="$PROJECT_DIR$/data/db/value/STRONG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SUBC.json" afterPath="$PROJECT_DIR$/data/db/value/SUBC.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SVEG.json" afterPath="$PROJECT_DIR$/data/db/value/SVEG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/TECH.json" afterPath="$PROJECT_DIR$/data/db/value/TECH.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/TEL.json" afterPath="$PROJECT_DIR$/data/db/value/TEL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/TGS.json" afterPath="$PROJECT_DIR$/data/db/value/TGS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/THIN.json" afterPath="$PROJECT_DIR$/data/db/value/THIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/TIL.json" afterPath="$PROJECT_DIR$/data/db/value/TIL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/TOM.json" afterPath="$PROJECT_DIR$/data/db/value/TOM.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/TOTG.json" afterPath="$PROJECT_DIR$/data/db/value/TOTG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/TRE.json" afterPath="$PROJECT_DIR$/data/db/value/TRE.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/TRVX.json" afterPath="$PROJECT_DIR$/data/db/value/TRVX.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/TTS.json" afterPath="$PROJECT_DIR$/data/db/value/TTS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/UMS.json" afterPath="$PROJECT_DIR$/data/db/value/UMS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/VEI.json" afterPath="$PROJECT_DIR$/data/db/value/VEI.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/VISTIN.json" afterPath="$PROJECT_DIR$/data/db/value/VISTIN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/WRE-ME.json" afterPath="$PROJECT_DIR$/data/db/value/WRE-ME.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/WRL.json" afterPath="$PROJECT_DIR$/data/db/value/WRL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/WSTEP.json" afterPath="$PROJECT_DIR$/data/db/value/WSTEP.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/WWI.json" afterPath="$PROJECT_DIR$/data/db/value/WWI.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/WWIB.json" afterPath="$PROJECT_DIR$/data/db/value/WWIB.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/WWL.json" afterPath="$PROJECT_DIR$/data/db/value/WWL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/XXL.json" afterPath="$PROJECT_DIR$/data/db/value/XXL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/YAR.json" afterPath="$PROJECT_DIR$/data/db/value/YAR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ZAL.json" afterPath="$PROJECT_DIR$/data/db/value/ZAL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div-split/ITE.json" afterPath="$PROJECT_DIR$/data/div-split/ITE.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.py" afterPath="$PROJECT_DIR$/db.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/download.py" afterPath="$PROJECT_DIR$/download.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rating.py" afterPath="$PROJECT_DIR$/rating.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/update.py" afterPath="$PROJECT_DIR$/update.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -242,8 +27,8 @@
       <file leaf-file-name="rating.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rating.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="82" column="30" lean-forward="true" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+            <state relative-caret-position="369">
+              <caret line="280" column="40" lean-forward="false" selection-start-line="280" selection-start-column="40" selection-end-line="280" selection-end-column="40" />
               <folding>
                 <element signature="e#772#782#0" expanded="true" />
               </folding>
@@ -274,8 +59,8 @@
       <file leaf-file-name="update.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/update.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="164" column="88" lean-forward="false" selection-start-line="164" selection-start-column="88" selection-end-line="164" selection-end-column="88" />
+            <state relative-caret-position="168">
+              <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -349,6 +134,7 @@
       <find>json</find>
       <find>2015</find>
       <find>db_insert_split_history</find>
+      <find>today</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -450,7 +236,7 @@
             <path>
               <item name="NorwegianStocksRating" type="b2602c69:ProjectViewProjectNode" />
               <item name="NorwegianStocksRating" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -507,7 +293,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21268657" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -517,7 +302,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36944744" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36944744" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -543,20 +328,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/div-split/STL.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div-split/STORM.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/div-split/STRONG.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -870,14 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/update.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="164" column="88" lean-forward="false" selection-start-line="164" selection-start-column="88" selection-end-line="164" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dividend.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -902,10 +665,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="77" column="8" lean-forward="false" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="159" lean-forward="true" selection-start-line="10" selection-start-column="159" selection-end-line="10" selection-end-column="159" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/profit_results.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rating.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="82" column="30" lean-forward="true" selection-start-line="82" selection-start-column="30" selection-end-line="82" selection-end-column="30" />
+        <state relative-caret-position="369">
+          <caret line="280" column="40" lean-forward="false" selection-start-line="280" selection-start-column="40" selection-end-line="280" selection-end-column="40" />
           <folding>
             <element signature="e#772#782#0" expanded="true" />
           </folding>

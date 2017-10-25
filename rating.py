@@ -266,11 +266,21 @@ def rating(arg):
 
     print(t)
 
-    print('\nSoftware has been developed by Fredrik Bakken.\n'
-          '\nEmail:   fredrik.bakken(at)gmail.com'
-          '\nWebsite: https://www.fredrikbakken.no/'
-          '\nGithub:  https://www.github.com/FredrikBakken\n'
-          "\nThank you for trying out this free stock rating software.")
+    developer = '\nSoftware has been developed by Fredrik Bakken.\n ' \
+                '\nEmail:   fredrik.bakken(at)gmail.com' \
+                '\nWebsite: https://www.fredrikbakken.no/' \
+                '\nGithub:  https://www.github.com/FredrikBakken\n' \
+                '\nThank you for trying out this free stock rating software.'
+
+    print(developer)
+
+    if ((number_of_arguments == 1 and arg[1] == 'all') or (arg == 'all')):
+        today = datetime.datetime.today().strftime('%d.%m.%Y')
+        table_txt = t.get_string()
+        with open('results/profit_results.txt', 'w') as file:
+            file.write('DATA IS FROM ' + today + '.\n')
+            file.write(developer + '\n')
+            file.write(table_txt)
 
 if __name__ == "__main__":
     rating(sys.argv)
