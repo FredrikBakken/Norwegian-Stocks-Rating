@@ -26,11 +26,28 @@
 ### Last update: 22.09.2017
 '''
 
+import sys
+import time
+import schedule
+
 from update import update
 from rating import rating
 from value import stocks_value
 from download import download_stocks
 
+
+def controller(argv):
+    if len(argv) > 1:
+        argument = argv[1]
+
+        schedule.every().day.at(argument).do(run)
+
+        while True:
+            schedule.run_pending()
+            time.sleep(3600)
+
+    else:
+        run()
 
 def run():
     # Download and store all stocks into the database db_stocks.json
@@ -49,4 +66,4 @@ def run():
 
 
 if __name__ == "__main__":
-    run()
+    controller(sys.argv)
