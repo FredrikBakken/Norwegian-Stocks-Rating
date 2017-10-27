@@ -242,7 +242,7 @@ def rating(arg):
         print("That is an invalid argument, please use one of the following arguments:\n"
               "'all', 'year', 'from_year to_year'")
 
-    sorted_list = sorted(profit_list, key=lambda x: x[1])
+    sorted_list = sorted(profit_list, key=lambda x: x[1], reverse=True)
 
     t = PrettyTable(['Loss / Profit', 'Ticker', 'Total (%)', 'From stock value', 'To stock value', 'Total dividend (After split rates)', '(%) Dividend (start)', '(%) Dividend (end)'])
 
