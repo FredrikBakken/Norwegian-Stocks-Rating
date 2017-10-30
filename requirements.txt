@@ -3,5 +3,6 @@
 tinydb==3.5.0
 beautifulsoup4==4.6.0
 prettytable==0.7.2
+schedule==0.4.3
 
 # Currency converter: https://www.oanda.com/currency/converter/
