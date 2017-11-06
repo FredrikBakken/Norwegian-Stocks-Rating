@@ -98,6 +98,7 @@ def update():
             with open(filename, 'r') as f:
                 first_line = f.readline()
                 lines = f.readlines()
+
             first_line_split = first_line.split(",")
             from_date = first_line_split[1]
             previous_entries = first_line_split[2]
@@ -114,7 +115,7 @@ def update():
 
         # Update entries
         total_entries = (int(previous_entries) + int(entries))
-        new_line = (first_line_split[0] + ',' + today + ',' + str(total_entries) + '\n')
+        new_line = (ticker + ',' + today + ',' + str(total_entries) + '\n')
 
         check_date = ''
         # Get latest dividend entry date

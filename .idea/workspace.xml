@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b116cd11-778e-4a3b-9ccc-0391f51e9488" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/db_annual_stock_value.json" afterPath="$PROJECT_DIR$/data/db/db_annual_stock_value.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/db_dividend_history.json" afterPath="$PROJECT_DIR$/data/db/db_dividend_history.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/db_stocks.json" afterPath="$PROJECT_DIR$/data/db/db_stocks.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AASB-ME.json" afterPath="$PROJECT_DIR$/data/db/value/AASB-ME.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ABT.json" afterPath="$PROJECT_DIR$/data/db/value/ABT.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AEGA.json" afterPath="$PROJECT_DIR$/data/db/value/AEGA.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AFG.json" afterPath="$PROJECT_DIR$/data/db/value/AFG.json" />
@@ -23,7 +27,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ASC.json" afterPath="$PROJECT_DIR$/data/db/value/ASC.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ASETEK.json" afterPath="$PROJECT_DIR$/data/db/value/ASETEK.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ATEA.json" afterPath="$PROJECT_DIR$/data/db/value/ATEA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AURG.json" afterPath="$PROJECT_DIR$/data/db/value/AURG.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AUSS.json" afterPath="$PROJECT_DIR$/data/db/value/AUSS.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AVANCE.json" afterPath="$PROJECT_DIR$/data/db/value/AVANCE.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/AVM.json" afterPath="$PROJECT_DIR$/data/db/value/AVM.json" />
@@ -63,18 +66,19 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/FOE.json" afterPath="$PROJECT_DIR$/data/db/value/FOE.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/FRO.json" afterPath="$PROJECT_DIR$/data/db/value/FRO.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/FUNCOM.json" afterPath="$PROJECT_DIR$/data/db/value/FUNCOM.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/GENT-ME.json" afterPath="$PROJECT_DIR$/data/db/value/GENT-ME.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/GIG.json" afterPath="$PROJECT_DIR$/data/db/value/GIG.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/GJF.json" afterPath="$PROJECT_DIR$/data/db/value/GJF.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/GOD.json" afterPath="$PROJECT_DIR$/data/db/value/GOD.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/GOGL.json" afterPath="$PROJECT_DIR$/data/db/value/GOGL.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/GRONG-ME.json" afterPath="$PROJECT_DIR$/data/db/value/GRONG-ME.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/GSF.json" afterPath="$PROJECT_DIR$/data/db/value/GSF.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/GYL.json" afterPath="$PROJECT_DIR$/data/db/value/GYL.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/HAVI.json" afterPath="$PROJECT_DIR$/data/db/value/HAVI.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/HBC.json" afterPath="$PROJECT_DIR$/data/db/value/HBC.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/HELG.json" afterPath="$PROJECT_DIR$/data/db/value/HELG.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/HEX.json" afterPath="$PROJECT_DIR$/data/db/value/HEX.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/HIDDN.json" afterPath="$PROJECT_DIR$/data/db/value/HIDDN.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/HLNG.json" afterPath="$PROJECT_DIR$/data/db/value/HLNG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/HSPG.json" afterPath="$PROJECT_DIR$/data/db/value/HSPG.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/HUGO.json" afterPath="$PROJECT_DIR$/data/db/value/HUGO.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/HUNT.json" afterPath="$PROJECT_DIR$/data/db/value/HUNT.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/HYARD.json" afterPath="$PROJECT_DIR$/data/db/value/HYARD.json" />
@@ -86,6 +90,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/INSR.json" afterPath="$PROJECT_DIR$/data/db/value/INSR.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/IOX.json" afterPath="$PROJECT_DIR$/data/db/value/IOX.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ISSG.json" afterPath="$PROJECT_DIR$/data/db/value/ISSG.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ITE.json" afterPath="$PROJECT_DIR$/data/db/value/ITE.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/JAEREN.json" afterPath="$PROJECT_DIR$/data/db/value/JAEREN.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/JIN.json" afterPath="$PROJECT_DIR$/data/db/value/JIN.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/KID.json" afterPath="$PROJECT_DIR$/data/db/value/KID.json" />
@@ -131,6 +136,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/OBXEXDBULL.json" afterPath="$PROJECT_DIR$/data/db/value/OBXEXDBULL.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/OCY.json" afterPath="$PROJECT_DIR$/data/db/value/OCY.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ODF.json" afterPath="$PROJECT_DIR$/data/db/value/ODF.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ODFB.json" afterPath="$PROJECT_DIR$/data/db/value/ODFB.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ODL.json" afterPath="$PROJECT_DIR$/data/db/value/ODL.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/OLT.json" afterPath="$PROJECT_DIR$/data/db/value/OLT.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/OPERA.json" afterPath="$PROJECT_DIR$/data/db/value/OPERA.json" />
@@ -144,6 +150,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/PHLY.json" afterPath="$PROJECT_DIR$/data/db/value/PHLY.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/PHO.json" afterPath="$PROJECT_DIR$/data/db/value/PHO.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/PLCS.json" afterPath="$PROJECT_DIR$/data/db/value/PLCS.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/POL.json" afterPath="$PROJECT_DIR$/data/db/value/POL.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/PPG-PREF.json" afterPath="$PROJECT_DIR$/data/db/value/PPG-PREF.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/PROTCT.json" afterPath="$PROJECT_DIR$/data/db/value/PROTCT.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/PRS.json" afterPath="$PROJECT_DIR$/data/db/value/PRS.json" />
@@ -154,7 +161,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/REC.json" afterPath="$PROJECT_DIR$/data/db/value/REC.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/RING.json" afterPath="$PROJECT_DIR$/data/db/value/RING.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/RISH.json" afterPath="$PROJECT_DIR$/data/db/value/RISH.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/ROM.json" afterPath="$PROJECT_DIR$/data/db/value/ROM.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SADG.json" afterPath="$PROJECT_DIR$/data/db/value/SADG.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SAFE.json" afterPath="$PROJECT_DIR$/data/db/value/SAFE.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SAGA.json" afterPath="$PROJECT_DIR$/data/db/value/SAGA.json" />
@@ -178,6 +184,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SOAG.json" afterPath="$PROJECT_DIR$/data/db/value/SOAG.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SOFF.json" afterPath="$PROJECT_DIR$/data/db/value/SOFF.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SOLON.json" afterPath="$PROJECT_DIR$/data/db/value/SOLON.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SOLV.json" afterPath="$PROJECT_DIR$/data/db/value/SOLV.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SONG.json" afterPath="$PROJECT_DIR$/data/db/value/SONG.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SOR.json" afterPath="$PROJECT_DIR$/data/db/value/SOR.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/SPOG.json" afterPath="$PROJECT_DIR$/data/db/value/SPOG.json" />
@@ -208,7 +215,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/VEI.json" afterPath="$PROJECT_DIR$/data/db/value/VEI.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/VISTIN.json" afterPath="$PROJECT_DIR$/data/db/value/VISTIN.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/VVL.json" afterPath="$PROJECT_DIR$/data/db/value/VVL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/WILS.json" afterPath="$PROJECT_DIR$/data/db/value/WILS.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/WRE-ME.json" afterPath="$PROJECT_DIR$/data/db/value/WRE-ME.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/WRL.json" afterPath="$PROJECT_DIR$/data/db/value/WRL.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/db/value/WSTEP.json" afterPath="$PROJECT_DIR$/data/db/value/WSTEP.json" />
@@ -451,8 +457,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div-split/XXL.json" afterPath="$PROJECT_DIR$/data/div-split/XXL.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div-split/YAR.json" afterPath="$PROJECT_DIR$/data/div-split/YAR.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/div-split/ZAL.json" afterPath="$PROJECT_DIR$/data/div-split/ZAL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/updates.txt" afterPath="$PROJECT_DIR$/data/updates.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/results/profit_results.txt" afterPath="$PROJECT_DIR$/results/profit_results.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/update.py" afterPath="$PROJECT_DIR$/update.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -510,21 +516,19 @@
       <file leaf-file-name="update.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/update.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="99" column="30" lean-forward="false" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+            <state relative-caret-position="258">
+              <caret line="108" column="38" lean-forward="false" selection-start-line="108" selection-start-column="38" selection-end-line="108" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db.py">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="85" column="0" lean-forward="false" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
-              <folding>
-                <element signature="e#762#771#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -575,9 +579,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/data/div-split/NTS.json" />
-        <option value="$PROJECT_DIR$/data/div-split/ODF.json" />
-        <option value="$PROJECT_DIR$/data/div-split/ODFB.json" />
         <option value="$PROJECT_DIR$/data/div-split/OLT.json" />
         <option value="$PROJECT_DIR$/data/div-split/OTS.json" />
         <option value="$PROJECT_DIR$/data/div-split/PDR.json" />
@@ -610,22 +611,25 @@
         <option value="$PROJECT_DIR$/data/div-split/ATEA.json" />
         <option value="$PROJECT_DIR$/data/div-split/MELG.json" />
         <option value="$PROJECT_DIR$/data/div-split/REC.json" />
-        <option value="$PROJECT_DIR$/data/updates.txt" />
         <option value="$PROJECT_DIR$/data/div-split/ITE.json" />
         <option value="$PROJECT_DIR$/db.py" />
         <option value="$PROJECT_DIR$/download.py" />
         <option value="$PROJECT_DIR$/data/div-split/ORK.json" />
         <option value="$PROJECT_DIR$/data/div-split/TEL.json" />
         <option value="$PROJECT_DIR$/data/div-split/NPRO.json" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/rating.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/update.py" />
         <option value="$PROJECT_DIR$/data/div-split/AKERBP.json" />
         <option value="$PROJECT_DIR$/data/div-split/STL.json" />
         <option value="$PROJECT_DIR$/data/div-split/NANO.json" />
         <option value="$PROJECT_DIR$/data/div-split/TGS.json" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/data/updates.txt" />
+        <option value="$PROJECT_DIR$/data/div-split/EKO.json" />
+        <option value="$PROJECT_DIR$/data/div-split/SBANK.json" />
+        <option value="$PROJECT_DIR$/data/div-split/VISTIN.json" />
+        <option value="$PROJECT_DIR$/update.py" />
       </list>
     </option>
   </component>
@@ -657,6 +661,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -665,16 +670,10 @@
               <item name="NorwegianStocksRating" type="b2602c69:ProjectViewProjectNode" />
               <item name="NorwegianStocksRating" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="NorwegianStocksRating" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NorwegianStocksRating" type="462c0819:PsiDirectoryNode" />
-              <item name="results" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -726,7 +725,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18869936" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19083156" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -734,7 +733,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.97941494" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26868907" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -746,6 +745,27 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49945828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19083156" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -760,104 +780,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/div-split/WRL.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div-split/WSTEP.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div-split/WWI.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="50" column="30" lean-forward="false" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div-split/WWIB.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div-split/WWL.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div-split/XXL.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div-split/YAR.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div-split/ZAL.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div-split/NOD.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/db/value/AFG.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/db/value/NOD.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="0" column="492988" lean-forward="false" selection-start-line="0" selection-start-column="492980" selection-end-line="0" selection-end-column="492988" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/db/value/SBX.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="0" column="5864" lean-forward="true" selection-start-line="0" selection-start-column="5864" selection-end-line="0" selection-end-column="5864" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div-split/SBX.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/div-split/ATEA.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/data/div-split/AQUA.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -945,13 +867,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1098,7 +1013,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1106,6 +1020,85 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="31" lean-forward="false" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/div-split/SBO.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/div-split/SBULK.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/div-split/SBVG.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/div-split/SBX.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" lean-forward="true" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/div-split/ASC.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/div-split/EMGS.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/div-split/EMAS.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/div-split/EKO.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/div-split/SBANK.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1113,15 +1106,55 @@
     <entry file="file://$PROJECT_DIR$/data/updates.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/div-split/VISTIN.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="28" lean-forward="false" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/div-split/SKBN.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/db/value/AURG.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/db/value/BSP-ME.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/db/value/ATLU-ME.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/update.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="99" column="30" lean-forward="false" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
+        <state relative-caret-position="258">
+          <caret line="108" column="38" lean-forward="false" selection-start-line="108" selection-start-column="38" selection-end-line="108" selection-end-column="38" />
           <folding />
         </state>
       </provider>
