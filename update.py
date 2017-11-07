@@ -176,8 +176,10 @@ def update():
 
     # There are new dividend updates which has not been fixed
     else:
-        sys.exit("\nOBS!\nThere are new dividend updates which has to be manually updated.\n"
-                 "Please check in the '/data/updates.txt' for more information.")
+        print("\nOBS!\nThere are new dividend updates which has to be manually updated.\n"
+              "Please check in the '/data/updates.txt' for more information.")
+        input("Press enter to continue...")
+        update()
 
     return True
 

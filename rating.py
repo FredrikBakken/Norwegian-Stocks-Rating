@@ -244,7 +244,7 @@ def rating(arg):
 
     sorted_list = sorted(profit_list, key=lambda x: x[1], reverse=True)
 
-    t = PrettyTable(['Loss / Profit', 'Ticker', 'Total (%)', 'From stock value', 'To stock value', 'Total dividend (After split rates)', '(%) Dividend (start)', '(%) Dividend (end)'])
+    t = PrettyTable(['Loss / Profit', 'Ticker', 'Total (%)', 'From stock value', 'To stock value', 'Total dividend (After split)', 'Dividend to start', 'Dividend to end'])
 
     for x in range(len(sorted_list)):
         if sorted_list[x][1] > 1:
