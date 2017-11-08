@@ -22,7 +22,6 @@
 '''
 
 import os
-import sys
 import math
 import time
 import datetime
@@ -73,6 +72,8 @@ def update():
 
     # Execute one ticker at the time
     for x in range(number_of_stocks):
+        # Reset lines values to avoid copy to new stock issue
+        lines = ''
 
         # Get today's date
         today = datetime.datetime.today().strftime('%d.%m.%Y')

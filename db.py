@@ -223,6 +223,7 @@ def db_get_annual_stock_value(ticker):
 def db_get_stock_value(ticker):
     filename = ticker + '.json'
     directory = 'data/db/value/'
+
     db_stock_value = TinyDB(directory + filename)
 
     result = db_stock_value.all()

@@ -105,6 +105,10 @@ def rating(arg):
             stock_data = db_get_stock_value(ticker)
             stock_date_list = sort_on_date(stock_data)
 
+            # Resetting stock values
+            start_stock_value = 0
+            end_stock_value = 0
+
             if len(stock_date_list) > 0:
                 from_date_stock = stock_date_list[0]
                 to_date_stock = stock_date_list[-1]
@@ -121,8 +125,14 @@ def rating(arg):
                             end_stock_value = float(stock_data[x]['c'])
                             val_t = True
 
+                        if from_date_stock == to_date_stock:
+                            end_stock_value = start_stock_value
+
                         if val_f and val_t:
                             break
+            else:
+                start_stock_value = 0
+                end_stock_value = 0
 
             profit = calculate_profit(ticker, total_dividend, start_stock_value, end_stock_value)
             profit_list.append(profit)
@@ -155,6 +165,10 @@ def rating(arg):
             stock_data = db_get_stock_value_year(ticker, arg[1])
             stock_date_list = sort_on_date(stock_data)
 
+            # Resetting stock values
+            start_stock_value = 0
+            end_stock_value = 0
+
             if len(stock_date_list) > 0:
                 from_date_stock = stock_date_list[0]
                 to_date_stock = stock_date_list[-1]
@@ -171,8 +185,14 @@ def rating(arg):
                             end_stock_value = float(stock_data[x]['c'])
                             val_t = True
 
+                        if from_date_stock == to_date_stock:
+                            end_stock_value = start_stock_value
+
                         if val_f and val_t:
                             break
+            else:
+                start_stock_value = 0
+                end_stock_value = 0
 
             profit = calculate_profit(ticker, total_dividend, start_stock_value, end_stock_value)
             profit_list.append(profit)
@@ -217,6 +237,10 @@ def rating(arg):
             end_stock_data = db_get_stock_value_year(ticker, arg[2])
             end_stock_date_list = sort_on_date(end_stock_data)
 
+            # Resetting stock values
+            start_stock_value = 0
+            end_stock_value = 0
+
 
             if len(start_stock_data) > 0 and len(end_stock_data) > 0:
                 from_date_stock = start_stock_date_list[0]
@@ -233,6 +257,12 @@ def rating(arg):
                         if end_stock_data[x]['d'] == to_date_stock:
                             end_stock_value = float(end_stock_data[x]['c'])
                             break
+
+                    if from_date_stock == to_date_stock:
+                        end_stock_value = start_stock_value
+            else:
+                start_stock_value = 0
+                end_stock_value = 0
 
             profit = calculate_profit(ticker, total_dividend, start_stock_value, end_stock_value)
             profit_list.append(profit)
