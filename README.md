@@ -4,7 +4,7 @@
 
 Norwegian Stocks Rating is a program for collecting all stocks on the norwegian stock market and then rating the stocks based upon historical values and dividends.
 
-**Latest 'data' content updated:** 21.11.2017.
+**Latest 'data' content updated:** 22.11.2017.
 
 **Latest results can be found [here](https://github.com/FredrikBakken/Norwegian-Stocks-Rating/blob/master/results/profit_results.txt).**
 
@@ -38,8 +38,6 @@ py -3.5 rating.py all           |    (Prints sorted rating based on all historic
 py -3.5 rating.py 2015          |    (Prints sorted rating from 2015)
 py -3.5 rating.py 2010 2014     |    (Prints sorted rating from 2010 to 2014)
 ```
-
-![All rating example (16.10.2017)](https://github.com/FredrikBakken/Norwegian-Stocks-Rating/blob/master/images/run_results_example.png)
 
 ## Missing Features
 
